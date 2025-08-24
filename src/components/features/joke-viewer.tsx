@@ -1,9 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { JokeResponse } from '@/types';
+//import { JokeResponse } from '@/types';
 
 interface JokeViewerProps {
   className?: string;
@@ -55,10 +57,11 @@ export function JokeViewer({ className }: JokeViewerProps) {
     <div className={`space-y-6 ${className}`}>
       <div className="text-center">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-          Joke Viewer
         </h2>
         <p className="text-gray-600 dark:text-gray-400">
-          Ready for some laughs? Here's a joke for you!
+          Prepare for weaponized disappointment...
+          <br />
+          (Warning: May contain dad jokes)
         </p>
       </div>
 
@@ -72,7 +75,7 @@ export function JokeViewer({ className }: JokeViewerProps) {
           </div>
         ) : error ? (
           <div className="text-center text-red-600 dark:text-red-400">
-            <div className="text-4xl mb-4">🤔</div>
+            <div className="text-4xl mb-4"></div>
             <p className="font-medium mb-2">Oops!</p>
             <p className="text-sm">{error}</p>
           </div>
@@ -105,8 +108,8 @@ export function JokeViewer({ className }: JokeViewerProps) {
                 className={`reaction-button laugh ${selectedReaction === 'laugh' ? 'selected' : ''}`}
                 aria-label="Laugh reaction"
               >
-                <span className="reaction-icon">😂</span>
-                <span className="reaction-label">Hilarious</span>
+                <span className="reaction-icon"></span>
+                <span className="reaction-label">HAHA nope</span>
               </button>
               
               <button
@@ -114,8 +117,8 @@ export function JokeViewer({ className }: JokeViewerProps) {
                 className={`reaction-button groan ${selectedReaction === 'groan' ? 'selected' : ''}`}
                 aria-label="Groan reaction"
               >
-                <span className="reaction-icon">🙄</span>
-                <span className="reaction-label">Dad Joke</span>
+                <span className="reaction-icon"></span>
+                <span className="reaction-label">Good Joke ,DAD. Now please stop at McDonald's</span>
               </button>
               
               <button
@@ -123,21 +126,21 @@ export function JokeViewer({ className }: JokeViewerProps) {
                 className={`reaction-button love ${selectedReaction === 'love' ? 'selected' : ''}`}
                 aria-label="Love reaction"
               >
-                <span className="reaction-icon">❤️</span>
-                <span className="reaction-label">Love It</span>
+                <span className="reaction-icon"></span>
+                <span className="reaction-label">Ouchy.exe</span>
               </button>
             </div>
             
             {selectedReaction && (
               <div className="text-sm text-purple-600 dark:text-purple-400 font-medium animate-pulse">
-                Thanks for the reaction! 🎉
+                Thanks for the reaction! 
               </div>
             )}
           </div>
         ) : (
           <div className="text-center text-gray-500 dark:text-gray-400">
-            <div className="text-4xl mb-4">🎪</div>
-            <p>Click the button below to get a joke!</p>
+            <div className="text-4xl mb-4"></div>
+            <p>"Pun Me Again, I dare you..."!</p>
           </div>
         )}
       </Card>
@@ -149,7 +152,7 @@ export function JokeViewer({ className }: JokeViewerProps) {
           className="min-h-[44px] px-8 py-3 text-lg font-medium bg-purple-600 hover:bg-purple-700 disabled:bg-purple-400 text-white rounded-lg transition-colors duration-200 touch-manipulation"
           aria-label="Generate new joke"
         >
-          {isLoading ? 'Loading...' : 'Get Another Joke'}
+          {isLoading ? 'Loading...' : 'Pun me again!...I dare you!'}
         </Button>
       </div>
 

@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import { useState } from 'react';
@@ -44,10 +46,9 @@ export function ExcuseGenerator({ className }: ExcuseGeneratorProps) {
         <div className={`space-y-6 ${className}`}>
             <div className="text-center">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-                    Excuse Generator
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400">
-                    Need a creative excuse? We've got you covered!
+                    Need an Excuse!! you evasive bitch. Go outside, have some fun
                 </p>
             </div>
 
@@ -56,7 +57,7 @@ export function ExcuseGenerator({ className }: ExcuseGeneratorProps) {
                     <div className="text-center">
                         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
                         <p className="text-gray-600 dark:text-gray-400">
-                            Crafting the perfect excuse...
+                            okay fine here is your excuse...
                         </p>
                     </div>
                 ) : error ? (
@@ -80,7 +81,7 @@ export function ExcuseGenerator({ className }: ExcuseGeneratorProps) {
                 ) : (
                     <div className="text-center text-gray-500 dark:text-gray-400">
                         <div className="text-4xl mb-4">🤔</div>
-                        <p>Click the button below to generate an excuse!</p>
+                        <p>Press below to ruin your reputation with style!</p>
                     </div>
                 )}
             </Card>
@@ -92,7 +93,7 @@ export function ExcuseGenerator({ className }: ExcuseGeneratorProps) {
                     className="min-h-[44px] px-8 py-3 text-lg font-medium bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white rounded-lg transition-colors duration-200 touch-manipulation"
                     aria-label="Generate new excuse"
                 >
-                    {isLoading ? 'Generating...' : 'Generate New Excuse'}
+                    {isLoading ? 'Generating...' : 'Cooking Lies'}
                 </Button>
             </div>
         </div>

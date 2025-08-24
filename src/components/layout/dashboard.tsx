@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -12,7 +14,7 @@ const FEATURES: FeatureCardType[] = [
     // Phase 1 (MVP) Features
     {
         id: 'excuse-generator',
-        title: 'Excuse Generator',
+        title: 'Excuse-O-Matic 3000',
         description: 'Generate random funny excuses for any situation',
         icon: 'excuse-icon',
         category: 'mvp',
@@ -20,16 +22,16 @@ const FEATURES: FeatureCardType[] = [
     },
     {
         id: 'joke-viewer',
-        title: 'Joke Viewer',
-        description: 'Enjoy random dad jokes and one-liners',
+        title: 'Joke Machine',
+        description: 'Unfunny since forever. Groan responsibly',
         icon: 'joke-icon',
         category: 'mvp',
         enabled: true
     },
     {
         id: 'quote-of-day',
-        title: 'Quote of the Day',
-        description: 'Daily motivational, sarcastic, or meme-worthy quotes',
+        title: 'Deep Fried Wisdom',
+        description: 'Quotes so inspiring they’ll make you quit',
         icon: 'quote-icon',
         category: 'mvp',
         enabled: true
@@ -39,7 +41,7 @@ const FEATURES: FeatureCardType[] = [
     {
         id: 'shower-thoughts',
         title: 'Shower Thoughts',
-        description: 'Random deep or funny thoughts to ponder',
+        description: 'why you looking here creep , just go take a shower',
         icon: 'thought-icon',
         category: 'expansion',
         enabled: false
@@ -47,7 +49,7 @@ const FEATURES: FeatureCardType[] = [
     {
         id: 'holiday-finder',
         title: 'Holiday Finder',
-        description: 'Discover today\'s obscure holidays and celebrations',
+        description: 'i knew you were looking for a reason to take a day off',
         icon: 'holiday-icon',
         category: 'expansion',
         enabled: false
@@ -55,7 +57,7 @@ const FEATURES: FeatureCardType[] = [
     {
         id: 'drink-recipes',
         title: 'Drink Recipes',
-        description: 'Random cocktail and mocktail recipes to try',
+        description: 'OHHH you drunk bastard, here are some recipes',
         icon: 'drink-icon',
         category: 'expansion',
         enabled: false
@@ -65,7 +67,7 @@ const FEATURES: FeatureCardType[] = [
     {
         id: 'productivity-timer',
         title: 'Productivity Timer',
-        description: 'Pomodoro timer with weird break suggestions',
+        description: 'Track minutes, lose hours, question life choices',
         icon: 'timer-icon',
         category: 'advanced',
         enabled: false
@@ -73,7 +75,7 @@ const FEATURES: FeatureCardType[] = [
     {
         id: 'decision-spinner',
         title: 'Decision Spinner',
-        description: 'Spin the wheel to make random choices',
+        description: 'i knew you were indecisive, so here is a spinner',
         icon: 'spinner-icon',
         category: 'advanced',
         enabled: false
@@ -81,7 +83,7 @@ const FEATURES: FeatureCardType[] = [
     {
         id: 'compliment-machine',
         title: 'Compliment Machine',
-        description: 'Send and receive anonymous compliments',
+        description: 'Generate random compliments to boost your ego',
         icon: 'compliment-icon',
         category: 'advanced',
         enabled: false

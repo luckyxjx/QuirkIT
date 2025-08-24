@@ -1,9 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { QuoteResponse } from '@/types';
+//import { QuoteResponse } from '@/types';
 
 interface QuoteDisplayProps {
   className?: string;
@@ -64,10 +66,10 @@ export function QuoteDisplay({ className }: QuoteDisplayProps) {
     <div className={`space-y-6 ${className}`}>
       <div className="text-center">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-          Quote of the Day
+          Fried Knowledge
         </h2>
         <p className="text-gray-600 dark:text-gray-400">
-          Daily inspiration and wisdom to brighten your day
+        from some guy who probably died centuries ago!
         </p>
       </div>
 
