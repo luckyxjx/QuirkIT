@@ -46,6 +46,9 @@ Built with technologies that are definitely overkill for generating excuses, but
 - npm or yarn (pick your poison)
 - A sense of humor (mandatory)
 - Coffee (optional but recommended)
+- A working brain (optional)
+- 2–3 brain cells minimum, but not required
+
 
 ### Installation (Copy-Paste Your Way to Success)
 
@@ -165,7 +168,6 @@ The application is designed to be deployed on Vercel:
 
 ## Contributing
 
-1## Contributing
 1. Fork the repo
 2. Break something
 3. Pretend you fixed it
