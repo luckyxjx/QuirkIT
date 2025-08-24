@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Cosmic Lemonade",
+    "ingredients": [
+      "2 cups fresh lemon juice",
+      "1 cup sugar",
+      "4 cups cold water",
+      "1 tsp blue food coloring",
+      "Edible glitter",
+      "Ice cubes",
+      "Lemon slices for garnish"
+    ],
+    "instructions": [
+      "Mix lemon juice and sugar until sugar dissolves",
+      "Add cold water and stir well",
+      "Add blue food coloring drop by drop until desired color",
+      "Add a pinch of edible glitter for cosmic effect",
+      "Serve over ice with lemon slice garnish",
+      "Watch it sparkle like the universe!"
+    ]
+  },
+  {
+    "name": "Unicorn Smoothie",
+    "ingredients": [
+      "1 frozen banana",
+      "1/2 cup frozen mango chunks",
+      "1/2 cup coconut milk",
+      "1 tbsp honey",
+      "1/4 tsp vanilla extract",
+      "Pink food coloring",
+      "Whipped cream",
+      "Rainbow sprinkles"
+    ],
+    "instructions": [
+      "Blend banana, mango, coconut milk, honey, and vanilla",
+      "Add pink food coloring for magical color",
+      "Blend until smooth and creamy",
+      "Pour into glass",
+      "Top with whipped cream",
+      "Sprinkle with rainbow sprinkles",
+      "Believe in magic while drinking!"
+    ]
+  },
+  {
+    "name": "Wizard's Brew Hot Chocolate",
+    "ingredients": [
+      "2 cups whole milk",
+      "1/4 cup dark chocolate chips",
+      "2 tbsp cocoa powder",
+      "2 tbsp sugar",
+      "1/4 tsp cinnamon",
+      "Pinch of cayenne pepper",
+      "Marshmallows",
+      "Chocolate shavings"
+    ],
+    "instructions": [
+      "Heat milk in a saucepan over medium heat",
+      "Whisk in chocolate chips until melted",
+      "Add cocoa powder, sugar, and cinnamon",
+      "Add a tiny pinch of cayenne for magic",
+      "Whisk until frothy and smooth",
+      "Pour into mug",
+      "Top with marshmallows and chocolate shavings",
+      "Cast a warming spell while sipping!"
+    ]
+  },
+  {
+    "name": "Mermaid Water",
+    "ingredients": [
+      "2 cups coconut water",
+      "1/4 cup pineapple juice",
+      "1 tbsp lime juice",
+      "1 tsp honey",
+      "Blue spirulina powder",
+      "Coconut flakes",
+      "Ice cubes",
+      "Pineapple wedge"
+    ],
+    "instructions": [
+      "Mix coconut water, pineapple juice, and lime juice",
+      "Stir in honey until dissolved",
+      "Add blue spirulina powder for ocean color",
+      "Stir until well combined",
+      "Serve over ice",
+      "Garnish with coconut flakes and pineapple",
+      "Swim with the mermaids (metaphorically)!"
+    ]
+  },
+  {
+    "name": "Dragon's Breath Ginger Ale",
+    "ingredients": [
+      "2 inches fresh ginger, sliced",
+      "1/4 cup sugar",
+      "1/4 cup water",
+      "2 cups sparkling water",
+      "1 tbsp lime juice",
+      "Red food coloring",
+      "Lime wedges",
+      "Mint leaves"
+    ],
+    "instructions": [
+      "Simmer ginger, sugar, and water for 10 minutes",
+      "Strain the ginger syrup and let cool",
+      "Mix syrup with sparkling water and lime juice",
+      "Add red food coloring for fiery effect",
+      "Serve over ice",
+      "Garnish with lime wedges and mint",
+      "Breathe fire responsibly!"
+    ]
+  }
+]

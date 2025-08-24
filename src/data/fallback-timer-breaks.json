@@ -1,0 +1,67 @@
+[
+  {
+    "suggestion": "Do 10 jumping jacks while humming your favorite song",
+    "duration": 5,
+    "type": "short"
+  },
+  {
+    "suggestion": "Stare at a wall and pretend it's the most interesting thing you've ever seen",
+    "duration": 3,
+    "type": "short"
+  },
+  {
+    "suggestion": "Practice your acceptance speech for an award you'll never win",
+    "duration": 5,
+    "type": "short"
+  },
+  {
+    "suggestion": "Have a conversation with your houseplant about the weather",
+    "duration": 4,
+    "type": "short"
+  },
+  {
+    "suggestion": "Do your best impression of a robot learning to dance",
+    "duration": 5,
+    "type": "short"
+  },
+  {
+    "suggestion": "Write a haiku about your current snack",
+    "duration": 7,
+    "type": "short"
+  },
+  {
+    "suggestion": "Practice your superhero pose in the mirror",
+    "duration": 3,
+    "type": "short"
+  },
+  {
+    "suggestion": "Organize your desk by color, then by size, then give up and mess it up again",
+    "duration": 15,
+    "type": "long"
+  },
+  {
+    "suggestion": "Take a walk and count how many different shades of green you can see",
+    "duration": 20,
+    "type": "long"
+  },
+  {
+    "suggestion": "Learn a new word in a foreign language and use it in three sentences",
+    "duration": 10,
+    "type": "long"
+  },
+  {
+    "suggestion": "Draw a portrait of your coffee mug from memory",
+    "duration": 12,
+    "type": "long"
+  },
+  {
+    "suggestion": "Research a random Wikipedia article and become an expert on something weird",
+    "duration": 25,
+    "type": "long"
+  },
+  {
+    "suggestion": "Do some stretches while pretending you're a cat waking up from a nap",
+    "duration": 8,
+    "type": "long"
+  }
+]
