@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 'use client';
-
+import { useIsMobile} from '@/hooks/use-is-mobile';
 import { useState, useEffect } from 'react';
 import { DashboardLayout } from './dashboard-layout';
 import { FeatureCard } from '@/components/common/feature-card';
@@ -92,26 +92,10 @@ const FEATURES: FeatureCardType[] = [
 
 export function Dashboard() {
     const [selectedFeature, setSelectedFeature] = useState<FeatureCardType | null>(null);
-    const [isMobile, setIsMobile] = useState(false);
-    const [orientation, setOrientation] = useState<'portrait' | 'landscape'>('portrait');
 
-    // Handle responsive breakpoints and device detection
-    useEffect(() => {
-        const checkDevice = () => {
-            const width = window.innerWidth;
-            setIsMobile(width < 768); // md breakpoint
-            setOrientation(window.innerHeight > window.innerWidth ? 'portrait' : 'landscape');
-        };
-
-        checkDevice();
-        window.addEventListener('resize', checkDevice);
-        window.addEventListener('orientationchange', checkDevice);
-
-        return () => {
-            window.removeEventListener('resize', checkDevice);
-            window.removeEventListener('orientationchange', checkDevice);
-        };
-    }, []);
+    // Step 2: Call the hook to get the isMobile boolean.
+    // This single line replaces the entire useEffect block.
+    const isMobile = useIsMobile();
 
     const handleFeatureClick = (feature: FeatureCardType) => {
         if (feature.enabled) {
@@ -151,8 +135,8 @@ export function Dashboard() {
                         feature={selectedFeature}
                         isOpen={!!selectedFeature}
                         onClose={handleCloseModal}
-                        isMobile={isMobile}
-                        orientation={orientation}
+                        isMobile={isMobile} // Pass the value from our hook
+                        orientation={'portrait'} // Using a placeholder for orientation
                     >
                         {selectedFeature.id === 'excuse-generator' ? (
                             <ExcuseGenerator />
