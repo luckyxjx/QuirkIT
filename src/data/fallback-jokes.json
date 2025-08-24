@@ -1,14 +1,10 @@
 [
   {
+    "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "type": "dad"
+  },
+  {
     "joke": "Why don't scientists trust atoms? Because they make up everything!",
-    "type": "dad"
-  },
-  {
-    "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
-    "type": "dad"
-  },
-  {
-    "joke": "Why don't eggs tell jokes? They'd crack each other up!",
     "type": "dad"
   },
   {
@@ -16,19 +12,75 @@
     "type": "dad"
   },
   {
-    "joke": "Why did the scarecrow win an award? He was outstanding in his field!",
-    "type": "dad"
-  },
-  {
     "joke": "I used to hate facial hair, but then it grew on me.",
     "type": "oneliner"
   },
   {
-    "joke": "I'm terrified of elevators, so I take steps to avoid them.",
+    "joke": "Why don’t skeletons fight each other? They don’t have the guts!",
+    "type": "dad"
+  },
+  {
+    "joke": "I would tell you a joke about construction, but I'm still working on it.",
+    "type": "dad"
+  },
+  {
+    "joke": "Why did the bicycle fall over? Because it was two-tired!",
+    "type": "dad"
+  },
+  {
+    "joke": "I don’t trust stairs. They’re always up to something.",
     "type": "oneliner"
   },
   {
-    "joke": "Why don't programmers like nature? It has too many bugs.",
+    "joke": "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+    "type": "dad"
+  },
+  {
+    "joke": "What do you call fake spaghetti? An impasta.",
+    "type": "dad"
+  },
+  {
+    "joke": "I only know 25 letters of the alphabet. I don’t know y.",
+    "type": "dad"
+  },
+  {
+    "joke": "My friend’s bakery burned down. Now his business is toast.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "Why did the computer go to the doctor? It caught a virus.",
+    "type": "dad"
+  },
+  {
+    "joke": "I told my computer I needed a break, and now it keeps sending me Kit-Kats.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "Why don’t oysters donate to charity? Because they’re shellfish.",
+    "type": "dad"
+  },
+  {
+    "joke": "What do you call a fish wearing a bowtie? Sofishticated.",
+    "type": "dad"
+  },
+  {
+    "joke": "I don’t play soccer because I like the sport. I’m just doing it for kicks.",
+    "type": "pun"
+  },
+  {
+    "joke": "I used to be a banker but I lost interest.",
+    "type": "pun"
+  },
+  {
+    "joke": "I used to be a baker, but I couldn’t make enough dough.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I got hit in the head with a can of soda. Luckily, it was a soft drink.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I stayed up all night to see where the sun went. Then it dawned on me.",
     "type": "dad"
   },
   {
@@ -36,27 +88,239 @@
     "type": "dad"
   },
   {
-    "joke": "Why do programmers prefer dark mode? Because light attracts bugs!",
+    "joke": "Why do cows have hooves instead of feet? Because they lactose.",
+    "type": "pun"
+  },
+  {
+    "joke": "What do you call cheese that isn’t yours? Nacho cheese.",
     "type": "dad"
   },
   {
-    "joke": "I'm on a seafood diet. I see food and I eat it.",
+    "joke": "Why did the stadium get hot? All the fans left.",
+    "type": "dad"
+  },
+  {
+    "joke": "I asked my dog what’s two minus two. He said nothing.",
     "type": "oneliner"
+  },
+  {
+    "joke": "Why can’t your nose be 12 inches long? Because then it’d be a foot.",
+    "type": "dad"
+  },
+  {
+    "joke": "I used to play piano by ear, but now I use my hands.",
+    "type": "dad"
+  },
+  {
+    "joke": "What do you call a can opener that doesn’t work? A can’t opener.",
+    "type": "dad"
+  },
+  {
+    "joke": "The man who survived mustard gas and pepper spray is now a seasoned veteran.",
+    "type": "pun"
+  },
+  {
+    "joke": "I don’t trust my calendar. Its days are numbered.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I told my wife she should embrace her mistakes. She gave me a hug.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "Why don’t graveyards ever get overcrowded? People are dying to get in.",
+    "type": "dad"
+  },
+  {
+    "joke": "I know a lot of jokes about retired people, but none of them work.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "Want to hear a joke about paper? Never mind, it’s tearable.",
+    "type": "dad"
   },
   {
     "joke": "Why did the coffee file a police report? It got mugged!",
     "type": "dad"
   },
   {
-    "joke": "I used to be addicted to soap, but I'm clean now.",
+    "joke": "I’m terrified of elevators, so I take steps to avoid them.",
     "type": "oneliner"
   },
   {
-    "joke": "Why don't skeletons fight each other? They don't have the guts!",
+    "joke": "I used to be addicted to soap, but I’m clean now.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I asked the librarian if the library had books on paranoia. She whispered, 'They’re right behind you.'",
+    "type": "oneliner"
+  },
+  {
+    "joke": "Why did the tomato turn red? Because it saw the salad dressing!",
     "type": "dad"
   },
   {
-    "joke": "I'm reading a book on the history of glue. Can't put it down!",
+    "joke": "What’s brown and sticky? A stick.",
     "type": "dad"
+  },
+  {
+    "joke": "What do you call an alligator in a vest? An investigator.",
+    "type": "pun"
+  },
+  {
+    "joke": "I used to be a shoe salesman, but I just didn’t fit in.",
+    "type": "pun"
+  },
+  {
+    "joke": "Why did the chicken join a band? Because it had the drumsticks.",
+    "type": "dad"
+  },
+  {
+    "joke": "I made a pun about the wind, but it blows.",
+    "type": "pun"
+  },
+  {
+    "joke": "I tried to catch fog yesterday. Mist.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I gave all my dead batteries away today… free of charge.",
+    "type": "pun"
+  },
+  {
+    "joke": "Why was the broom late? It swept in.",
+    "type": "dad"
+  },
+  {
+    "joke": "What do you call a factory that makes okay products? A satisfactory.",
+    "type": "dad"
+  },
+  {
+    "joke": "Why can’t your hand be 12 inches long? Because then it’d be a foot.",
+    "type": "dad"
+  },
+  {
+    "joke": "I used to be a baker, but I couldn’t make enough dough.",
+    "type": "dad"
+  },
+  {
+    "joke": "What do you call an elephant that doesn’t matter? An irrelephant.",
+    "type": "pun"
+  },
+  {
+    "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I once heard a joke about amnesia, but I forgot how it goes.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I used to run a dating service for chickens, but I was struggling to make hens meet.",
+    "type": "pun"
+  },
+  {
+    "joke": "My math teacher called me average. How mean!",
+    "type": "pun"
+  },
+  {
+    "joke": "I couldn’t figure out why I kept running in circles. Then it dawned on me.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I told my friend 10 jokes to make him laugh. Sadly, no pun in ten did.",
+    "type": "pun"
+  },
+  {
+    "joke": "I once had a joke about time travel, but you guys didn’t like it.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "What did the left eye say to the right eye? Between you and me, something smells.",
+    "type": "corny"
+  },
+  {
+    "joke": "What do you call a bear with no teeth? A gummy bear.",
+    "type": "dad"
+  },
+  {
+    "joke": "I got a reversible jacket for Christmas. I can’t wait to see how it turns out.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "Did you hear about the guy who invented Lifesavers? He made a mint!",
+    "type": "pun"
+  },
+  {
+    "joke": "Why can’t you trust trees? They seem a little shady.",
+    "type": "dad"
+  },
+  {
+    "joke": "I once had a joke about pizza, but it was too cheesy.",
+    "type": "corny"
+  },
+  {
+    "joke": "What do you call a sleeping bull? A bulldozer.",
+    "type": "dad"
+  },
+  {
+    "joke": "Why don’t some couples go to the gym? Because some relationships don’t work out.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I used to be a magician, but I pulled my career out of a hat.",
+    "type": "pun"
+  },
+  {
+    "joke": "I used to work at a shoe factory, but I just didn’t fit in.",
+    "type": "pun"
+  },
+  {
+    "joke": "Why did the orange stop? It ran out of juice.",
+    "type": "dad"
+  },
+  {
+    "joke": "What do you call a snowman with a six-pack? An abdominal snowman.",
+    "type": "dad"
+  },
+  {
+    "joke": "Why did the cookie go to the hospital? Because it was feeling crummy.",
+    "type": "dad"
+  },
+  {
+    "joke": "I once dated an electrician. She was shocking.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I would tell you a joke about pizza, but it’s a little too cheesy.",
+    "type": "corny"
+  },
+  {
+    "joke": "Why did the banana go to the doctor? Because it wasn’t peeling well.",
+    "type": "dad"
+  },
+  {
+    "joke": "What’s orange and sounds like a parrot? A carrot.",
+    "type": "corny"
+  },
+  {
+    "joke": "What did the janitor say when he jumped out of the closet? Supplies!",
+    "type": "dad"
+  },
+  {
+    "joke": "What’s a skeleton’s least favorite room? The living room.",
+    "type": "corny"
+  },
+  {
+    "joke": "I used to be afraid of hurdles, but I got over it.",
+    "type": "oneliner"
+  },
+  {
+    "joke": "I once got into a fight with a broken elevator. I took it to another level.",
+    "type": "pun"
+  },
+  {
+    "joke": "I used to be indecisive. Now, I’m not so sure.",
+    "type": "oneliner"
   }
 ]

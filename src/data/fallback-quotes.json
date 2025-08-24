@@ -1,30 +1,502 @@
 [
   {
     "quote": "The only way to do great work is to love what you do.",
-    "author": "Steve Jobs"
+    "author": "Steve Jobs",
+    "type": "motivational"
   },
   {
-    "quote": "Life is what happens to you while you're busy making other plans.",
-    "author": "John Lennon"
+    "quote": "Shoot for the moon. Even if you miss, you'll land among the stars.",
+    "author": "Norman Vincent Peale",
+    "type": "motivational"
   },
   {
-    "quote": "The future belongs to those who believe in the beauty of their dreams.",
-    "author": "Eleanor Roosevelt"
+    "quote": "Life is short. Smile while you still have teeth.",
+    "author": "Unknown",
+    "type": "corny"
   },
   {
-    "quote": "It is during our darkest moments that we must focus to see the light.",
-    "author": "Aristotle"
+    "quote": "Dream big and dare to fail.",
+    "author": "Norman Vaughan",
+    "type": "motivational"
+  },
+  {
+    "quote": "If at first you don’t succeed, then skydiving definitely isn’t for you.",
+    "author": "Steven Wright",
+    "type": "stupid"
+  },
+  {
+    "quote": "The best way to predict your future is to create it.",
+    "author": "Peter Drucker",
+    "type": "motivational"
+  },
+  {
+    "quote": "You miss 100% of the shots you don’t take.",
+    "author": "Wayne Gretzky",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t follow your dreams. Follow my Instagram instead.",
+    "author": "Random Influencer",
+    "type": "ass"
+  },
+  {
+    "quote": "When life gives you lemons, squirt someone in the eye.",
+    "author": "Cathy Guisewite",
+    "type": "stupid"
+  },
+  {
+    "quote": "Everything you can imagine is real.",
+    "author": "Pablo Picasso",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Hard work never killed anyone, but why take the chance?",
+    "author": "Edgar Bergen",
+    "type": "corny"
+  },
+  {
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "type": "motivational"
+  },
+  {
+    "quote": "The elevator to success is out of order. You’ll have to take the stairs.",
+    "author": "Joe Girard",
+    "type": "corny"
+  },
+  {
+    "quote": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "type": "motivational"
+  },
+  {
+    "quote": "Some people dream of success, while others wake up and work for it.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t take life too seriously. You’ll never get out of it alive.",
+    "author": "Elbert Hubbard",
+    "type": "stupid"
+  },
+  {
+    "quote": "Fall seven times and stand up eight.",
+    "author": "Japanese Proverb",
+    "type": "motivational"
+  },
+  {
+    "quote": "If life gives you melons, you might be dyslexic.",
+    "author": "Unknown",
+    "type": "corny"
+  },
+  {
+    "quote": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Always borrow money from a pessimist. They won’t expect it back.",
+    "author": "Oscar Wilde",
+    "type": "stupid"
+  },
+  {
+    "quote": "Don’t wait. The time will never be just right.",
+    "author": "Napoleon Hill",
+    "type": "motivational"
+  },
+  {
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "type": "motivational"
+  },
+  {
+    "quote": "Behind every great man is a woman rolling her eyes.",
+    "author": "Jim Carrey",
+    "type": "corny"
+  },
+  {
+    "quote": "Don’t let yesterday take up too much of today.",
+    "author": "Will Rogers",
+    "type": "motivational"
+  },
+  {
+    "quote": "I intend to live forever. So far, so good.",
+    "author": "Steven Wright",
+    "type": "stupid"
+  },
+  {
+    "quote": "Hustle until your haters ask if you’re hiring.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Work hard in silence. Let your success be the noise.",
+    "author": "Frank Ocean",
+    "type": "motivational"
+  },
+  {
+    "quote": "If you think nobody cares if you’re alive, try missing a couple of payments.",
+    "author": "Earl Wilson",
+    "type": "corny"
+  },
+  {
+    "quote": "Opportunities don’t happen, you create them.",
+    "author": "Chris Grosser",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t follow your dreams, follow the WiFi signal.",
+    "author": "Unknown",
+    "type": "ass"
+  },
+  {
+    "quote": "Do what you can with all you have, wherever you are.",
+    "author": "Theodore Roosevelt",
+    "type": "motivational"
+  },
+  {
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "type": "motivational"
+  },
+  {
+    "quote": "Never put off until tomorrow what you can do the day after tomorrow.",
+    "author": "Mark Twain",
+    "type": "stupid"
+  },
+  {
+    "quote": "If opportunity doesn’t knock, build a door.",
+    "author": "Milton Berle",
+    "type": "motivational"
+  },
+  {
+    "quote": "Motivation gets you going, but habit keeps you growing.",
+    "author": "John Maxwell",
+    "type": "motivational"
+  },
+  {
+    "quote": "You can’t have everything… where would you put it?",
+    "author": "Steven Wright",
+    "type": "corny"
+  },
+  {
+    "quote": "Do not wait to strike till the iron is hot, but make it hot by striking.",
+    "author": "William Butler Yeats",
+    "type": "motivational"
+  },
+  {
+    "quote": "Life is like a sewer… what you get out of it depends on what you put into it.",
+    "author": "Tom Lehrer",
+    "type": "stupid"
+  },
+  {
+    "quote": "Start where you are. Use what you have. Do what you can.",
+    "author": "Arthur Ashe",
+    "type": "motivational"
+  },
+  {
+    "quote": "Sometimes the best inspiration is a deadline.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Even if you’re on the right track, you’ll get run over if you just sit there.",
+    "author": "Will Rogers",
+    "type": "corny"
+  },
+  {
+    "quote": "Push yourself, because no one else is going to do it for you.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t worry if plan A fails, there are 25 more letters in the alphabet.",
+    "author": "Claire Cook",
+    "type": "stupid"
+  },
+  {
+    "quote": "Great things never come from comfort zones.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "If you think you are too small to make a difference, try sleeping with a mosquito.",
+    "author": "Dalai Lama",
+    "type": "corny"
+  },
+  {
+    "quote": "Don’t count the days, make the days count.",
+    "author": "Muhammad Ali",
+    "type": "motivational"
+  },
+  {
+    "quote": "When nothing goes right, go left.",
+    "author": "Unknown",
+    "type": "stupid"
+  },
+  {
+    "quote": "Doubt kills more dreams than failure ever will.",
+    "author": "Suzy Kassem",
+    "type": "motivational"
+  },
+  {
+    "quote": "The difference between ordinary and extraordinary is that little extra.",
+    "author": "Jimmy Johnson",
+    "type": "motivational"
+  },
+  {
+    "quote": "Always remember that you are unique, just like everyone else.",
+    "author": "Unknown",
+    "type": "corny"
+  },
+  {
+    "quote": "Action is the foundational key to all success.",
+    "author": "Pablo Picasso",
+    "type": "motivational"
+  },
+  {
+    "quote": "Change the world by being yourself.",
+    "author": "Amy Poehler",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t give up on your dreams. Keep sleeping.",
+    "author": "Unknown",
+    "type": "ass"
+  },
+  {
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "type": "motivational"
+  },
+  {
+    "quote": "Life is what happens when you’re busy making other plans.",
+    "author": "John Lennon",
+    "type": "motivational"
+  },
+  {
+    "quote": "If you fall, I’ll be there. – The floor",
+    "author": "Unknown",
+    "type": "stupid"
   },
   {
     "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "author": "Winston Churchill"
+    "author": "Winston Churchill",
+    "type": "motivational"
   },
   {
-    "quote": "The only impossible journey is the one you never begin.",
-    "author": "Tony Robbins"
+    "quote": "The elevator to success is broken. Take the stairs… one painful step at a time.",
+    "author": "Unknown",
+    "type": "stupidly-motivational"
   },
   {
-    "quote": "In the middle of difficulty lies opportunity.",
-    "author": "Albert Einstein"
-  }
+    "quote": "I used to think I was indecisive, but now I’m not so sure.",
+    "author": "Unknown",
+    "type": "corny"
+  },
+  {
+    "quote": "Dream big. Even if you fail, at least you failed dramatically.",
+    "author": "Unknown",
+    "type": "stupidly-motivational"
+  },
+  {
+    "quote": "Don’t watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson",
+    "type": "motivational"
+  },
+  {
+    "quote": "Shoot for the moon. Even if you miss, you’ll land among the stars… which is actually billions of light years away and you’ll suffocate.",
+    "author": "Corny Twist",
+    "type": "stupid"
+  },
+  {
+    "quote": "Hard work beats talent when talent doesn’t work hard.",
+    "author": "Tim Notke",
+    "type": "motivational"
+  },
+  {
+    "quote": "If you’re not failing, you’re not trying. If you’re failing too much, maybe stop trying.",
+    "author": "Me",
+    "type": "stupidly-motivational"
+  },
+  {
+    "quote": "Believe in yourself, even when no one else does. Especially when no one else does.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "If at first you don’t succeed, then skydiving definitely isn’t for you.",
+    "author": "Unknown",
+    "type": "corny"
+  },
+  {
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t quit. Suffer now and live the rest of your life as a champion.",
+    "author": "Muhammad Ali",
+    "type": "motivational"
+  },
+  {
+    "quote": "Some people dream of success, others wake up and check Instagram.",
+    "author": "Unknown",
+    "type": "stupid"
+  },
+  {
+    "quote": "Do one thing every day that scares you. Like opening your bank account.",
+    "author": "Twisted Eleanor Roosevelt",
+    "type": "stupidly-motivational"
+  },
+  {
+    "quote": "Opportunities don’t happen, you create them.",
+    "author": "Chris Grosser",
+    "type": "motivational"
+  },
+  {
+    "quote": "Wake up with determination. Go to bed with pizza.",
+    "author": "Unknown",
+    "type": "corny"
+  },
+  {
+    "quote": "Don’t count the days, make the days count.",
+    "author": "Muhammad Ali",
+    "type": "motivational"
+  },
+  {
+    "quote": "Every accomplishment starts with the decision to try… and usually some coffee.",
+    "author": "Unknown",
+    "type": "stupidly-motivational"
+  },
+  {
+    "quote": "Don’t stop when you’re tired. Stop when you’re done. Or when Netflix drops a new season.",
+    "author": "Unknown",
+    "type": "stupid"
+  },
+  {
+    "quote": "Hustle until your haters ask if you’re hiring.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "I didn’t fail the test, I just found 100 ways to do it wrong.",
+    "author": "Benjamin Franklin (probably not)",
+    "type": "corny"
+  },
+  {
+    "quote": "Do it now. Sometimes 'later' becomes 'never'.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Push yourself, because no one else is going to push you… unless you’re on a swing.",
+    "author": "Unknown",
+    "type": "stupidly-motivational"
+  },
+  {
+    "quote": "If you can’t beat them, arrange to have them beaten.",
+    "author": "George Carlin",
+    "type": "stupid"
+  },
+  {
+    "quote": "Your limitation—it’s only your imagination.",
+    "author": "Unknown",
+    "type": "motivational"
+  },
+  {
+    "quote": "Go the extra mile. It’s never crowded there… because nobody actually wants to.",
+    "author": "Unknown",
+    "type": "stupidly-motivational"
+  },
+  {
+    "quote": "The future depends on what you do today.",
+    "author": "Mahatma Gandhi",
+    "type": "motivational"
+  },
+  {
+    "quote": "A day without sunshine is like, you know, night.",
+    "author": "Steve Martin",
+    "type": "stupid"
+  },
+  {
+    "quote": "Motivation is what gets you started. Habit is what keeps you going.",
+    "author": "Jim Ryun",
+    "type": "motivational"
+  },
+  {
+    "quote": "Don’t let yesterday take up too much of today.",
+    "author": "Will Rogers",
+    "type": "motivational"
+  },
+  {
+    "quote": "Fall seven times and stand up eight. Unless it’s leg day.",
+    "author": "Unknown",
+    "type": "stupidly-motivational"
+  },
+  {
+    "quote": "Opportunities are like sunrises. If you wait too long, you miss them. Or you just sleep in.",
+    "author": "Unknown",
+    "type": "corny"
+  },
+  { "quote": "When life closes a door, open it again. That’s how doors work.", "author": "Obvious Wisdom" },
+  { "quote": "The grass is greener where you water it. Or where your neighbor waters it better.", "author": "Lawn Care Guru" },
+  { "quote": "Don’t be a prisoner of your past. Unless your past is free food, then stay there.", "author": "Deep but Dumb" },
+  { "quote": "Big journeys begin with small steps. Or a good WiFi connection.", "author": "Modern Explorer" },
+  { "quote": "Do what you can, with what you have, where you are. Unless you’re broke, then just nap.", "author": "Roosevelt Remix" },
+  { "quote": "Every day may not be good, but there’s something good in every day. Like snacks.", "author": "Positive Snacker" },
+  { "quote": "Don’t be afraid to fail. Be afraid of succeeding at something stupid.", "author": "Accidental Genius" },
+  { "quote": "The comeback is always stronger than the setback. Unless you forget leg day.", "author": "Gym Bro" },
+  { "quote": "Sometimes you win, sometimes you learn. Or sometimes you just cry in the shower.", "author": "Shower Philosopher" },
+  { "quote": "A winner is just a loser who tried one more time. And had better WiFi.", "author": "E-Sports Coach" },
+  { "quote": "Happiness is free. Unfortunately, rent is not.", "author": "Cold Reality" },
+  { "quote": "Stars can’t shine without darkness. Or electricity.", "author": "Corny Sky Guy" },
+  { "quote": "Success doesn’t come to you, you go to it. Unless Amazon delivers it.", "author": "Prime Hustler" },
+  { "quote": "Pain is temporary. Internet screenshots are forever.", "author": "Social Media Philosopher" },
+  { "quote": "Life doesn’t have to be perfect to be wonderful. But WiFi does.", "author": "Millennial Sage" },
+  { "quote": "Don’t limit your challenges. Challenge your limits. Unless your limit is pizza, then don’t.", "author": "Motivational Eater" },
+  { "quote": "The secret to success? Show up. Preferably with coffee.", "author": "Office Survivor" },
+  { "quote": "Turn your can’ts into cans, your dreams into memes, and your failures into content.", "author": "Influencer Mindset" },
+  { "quote": "Work until you no longer need an introduction. Or until people mute you.", "author": "Corporate Poster" },
+  { "quote": "It always seems impossible until it’s done. Or until someone else does it first.", "author": "Mandela Remix" },
+  { "quote": "Don’t be the same, be better. Or at least funnier.", "author": "Life Hack Guy" },
+  { "quote": "Happiness looks good on you. So does pizza grease.", "author": "Comfort Food Philosopher" },
+  { "quote": "Success is like an iceberg. People only see your shiny Instagram posts.", "author": "Hustle Meme" },
+  { "quote": "Your only limit is you. Unless it’s your credit card limit.", "author": "Finance Guru" },
+  { "quote": "Start where you are. Use what you have. Unless what you have is expired milk.", "author": "Practical Dreamer" },
+  { "quote": "Don’t be afraid to shine. Unless you’re bald in the sun.", "author": "Sunscreen Coach" },
+  { "quote": "Failure builds character. Too much failure builds debt.", "author": "Broke Philosopher" },
+  { "quote": "Stay hungry. Stay foolish. Stay hydrated.", "author": "Steve Jobs Remix" },
+  { "quote": "Do something today your future self will thank you for. Or blame you for, depends.", "author": "Time Traveler" },
+  { "quote": "A goal without a plan is just a wish. And a plan without action is just a to-do list you’ll ignore.", "author": "Planner Addict" },
+  { "quote": "Don’t tell people your dreams. Show them… unless your dream is weird.", "author": "Motivation With Limits" },
+  { "quote": "Everything happens for a reason. Sometimes the reason is you made a dumb choice.", "author": "Reality Check" },
+  { "quote": "Consistency is key. Unless you’re consistently bad.", "author": "Coach Chaos" },
+  { "quote": "Don’t wait for opportunity. Create it. Or steal it, who’s asking?", "author": "Ambitious Rebel" },
+  { "quote": "Discipline is just choosing between what you want now and what you want later. I choose pizza now.", "author": "Food Philosopher" },
+  { "quote": "Great things never came from comfort zones. Except pajamas.", "author": "Lazy Genius" },
+  { "quote": "Don’t let the fear of failure stop you. Let laziness do that instead.", "author": "Truth Teller" },
+  { "quote": "Success is not for the lazy. But naps are.", "author": "Nap Guru" },
+  { "quote": "The road to success is always under construction. And full of potholes.", "author": "Frustrated Commuter" },
+  { "quote": "If opportunity doesn’t knock, build a door. Or just check if the doorbell works.", "author": "DIY Philosopher" },
+  { "quote": "Focus on the step in front of you, not the whole staircase. Unless it’s Lego, then good luck.", "author": "Parental Wisdom" },
+  { "quote": "Good things come to those who hustle. Better things come to those who order delivery.", "author": "Lazy Hustler" },
+  { "quote": "Your future needs you. Your past just texts you at 2 AM.", "author": "Toxic Motivator" },
+  { "quote": "Never stop learning. Unless it’s algebra, then please stop.", "author": "Math Hater" },
+  { "quote": "The sky is not the limit. There are footprints on the moon. But my rent is still due.", "author": "Space Hustler" },
+  { "quote": "Don’t just survive, thrive. Unless it’s Monday.", "author": "Weekend Enthusiast" },
+  { "quote": "Be so good they can’t ignore you. Or at least so loud they can’t.", "author": "Annoying Genius" },
+  { "quote": "The best way to predict the future is to create it. Or bribe it.", "author": "Shady Motivator" },
+  { "quote": "Small steps every day. Unless it’s leg day, then crawl.", "author": "Gym Meme" },
+  { "quote": "Sometimes you win, sometimes you learn. Sometimes you just embarrass yourself.", "author": "Life Teacher" }
 ]
