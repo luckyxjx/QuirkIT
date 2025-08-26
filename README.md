@@ -67,14 +67,25 @@ npm install
 3. **Set up your secret environment variables:**
 
 ```bash
-cp .env.example .env.local
+touch .env.local
+# Copy the structure below into your .env.local file
 # Then edit .env.local with your actual API keys
 ```
 
 4. **Configure your `.env.local` file:**
 
 ```env
-x```
+# Vercel KV Database (for caching jokes because priorities)
+KV_REST_API_URL=your_kv_rest_api_url_here
+KV_REST_API_TOKEN=your_kv_rest_api_token_here
+
+# External API Keys (optional, we have fallbacks)
+COCKTAIL_API_KEY=your_cocktail_api_key_here
+JOKE_API_KEY=your_joke_api_key_here
+QUOTE_API_KEY=your_quote_api_key_here
+HOLIDAY_API_KEY=your_holiday_api_key_here
+```
+
 
 5. **Fire up the development server:**
 
