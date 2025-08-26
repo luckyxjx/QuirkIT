@@ -55,7 +55,6 @@ Built with technologies that are definitely overkill for generating excuses, but
 
 ```bash
 git clone <repository-url>
-cd quirkit-dashboard
 ```
 
 2. **Install the magic dependencies:**
