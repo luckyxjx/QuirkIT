@@ -74,16 +74,7 @@ cp .env.example .env.local
 4. **Configure your `.env.local` file:**
 
 ```env
-# Vercel KV Database (for caching jokes because priorities)
-KV_REST_API_URL=your_kv_rest_api_url_here
-KV_REST_API_TOKEN=your_kv_rest_api_token_here
-
-# External API Keys (optional, we have fallbacks)
-COCKTAIL_API_KEY=your_cocktail_api_key_here
-JOKE_API_KEY=your_joke_api_key_here
-QUOTE_API_KEY=your_quote_api_key_here
-HOLIDAY_API_KEY=your_holiday_api_key_here
-```
+x```
 
 5. **Fire up the development server:**
 
