@@ -42,7 +42,7 @@ Built with technologies that are definitely overkill for generating excuses, but
 
 ### Prerequisites (The Boring But Necessary Stuff)
 
-- Node.js 18+ (because we're not animals)
+- Node.js (because we're not animals)
 - npm or yarn (pick your poison)
 - A sense of humor (mandatory)
 - Coffee (optional but recommended)
