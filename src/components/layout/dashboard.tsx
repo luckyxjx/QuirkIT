@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 
 'use client';
-import { useIsMobile} from '@/hooks/use-is-mobile';
+import { useIsMobile } from '@/hooks/use-is-mobile';
 import { useState, useEffect } from 'react';
 import { DashboardLayout } from './dashboard-layout';
 import { FeatureCard } from '@/components/common/feature-card';
 import { FeatureModal } from '@/components/common/feature-modal';
-import { ExcuseGenerator, JokeViewer, QuoteDisplay } from '@/components/features';
+import { ExcuseGenerator, JokeViewer, QuoteDisplay, ShowerThought } from '@/components/features';
 import { FeatureCard as FeatureCardType } from '@/types';
 
 // Feature data - this will be the source of truth for all features
@@ -44,7 +44,7 @@ const FEATURES: FeatureCardType[] = [
         description: 'why you looking here creep , just go take a shower',
         icon: 'thought-icon',
         category: 'expansion',
-        enabled: false
+        enabled: true
     },
     {
         id: 'holiday-finder',
@@ -144,6 +144,8 @@ export function Dashboard() {
                             <JokeViewer />
                         ) : selectedFeature.id === 'quote-of-day' ? (
                             <QuoteDisplay />
+                        ) : selectedFeature.id === 'shower-thoughts' ? (
+                            <ShowerThought />
                         ) : (
                             <div className="text-center py-8">
                                 <h3 className="text-xl font-semibold mb-4">{selectedFeature.title}</h3>

@@ -1,32 +1,32 @@
-#  Quirkit
+# Quirkit
 
-> *"Dumb on the Outside, Useful on the Inside"* - That's what she said... about this app.
+> _"Dumb on the Outside, Useful on the Inside"_ - That's what she said... about this app.
 
 Welcome to Quirkit - the web app equivalent of that drawer filled with random gadgets you never use but somehow can't live without. Built with the finest ingredients: Next.js, TypeScript, and a questionable sense of humor.
 
 **Warning**: This app may cause uncontrollable productivity, spontaneous laughter, and an inexplicable urge to share dad jokes with your coworkers.
 
-##  What Does This Thing Actually Do?
+## What Does This Thing Actually Do?
 
 ### Phase 1: The "I Can't Believe This Works" Edition
 
--  **Excuse Generator** - Because "my dog ate my homework" is so 2005
--  **Joke Viewer** - Dad jokes so bad they're good (with emoji reactions for maximum cringe)
--  **Quote of the Day** - Daily wisdom that ranges from profound to "did I really just read that?"
+- **Excuse Generator** - Because "my dog ate my homework" is so 2005
+- **Joke Viewer** - Dad jokes so bad they're good (with emoji reactions for maximum cringe)
+- **Quote of the Day** - Daily wisdom that ranges from profound to "did I really just read that?"
 
 ### Phase 2: The "Wait, There's More?" Expansion
 
--  **Shower Thoughts** - Those 3 AM revelations, but at reasonable hours
--  **Holiday Finder** - Discover it's National Bubble Wrap Appreciation Day (yes, that's real)
--  **Drink Recipes** - Because sometimes you need a mocktail to cope with your code
+- **Shower Thoughts** - Those 3 AM revelations, but at reasonable hours
+- **Holiday Finder** - Discover it's National Bubble Wrap Appreciation Day (yes, that's real)
+- **Drink Recipes** - Because sometimes you need a mocktail to cope with your code
 
 ### Phase 3: The "We've Gone Too Far" Advanced Features
 
--  **Productivity Timer** - Pomodoro technique with suggestions like "stare at the ceiling for 5 minutes"
--  **Decision Spinner** - For when you can't decide between pizza or... pizza
--  **Compliment Machine** - Anonymous nice things because the internet needs more positivity
+- **Productivity Timer** - Pomodoro technique with suggestions like "stare at the ceiling for 5 minutes"
+- **Decision Spinner** - For when you can't decide between pizza or... pizza
+- **Compliment Machine** - Anonymous nice things because the internet needs more positivity
 
-##  Tech Stack (The Serious Stuff)
+## Tech Stack (The Serious Stuff)
 
 Built with technologies that are definitely overkill for generating excuses, but hey, we're professionals here:
 
@@ -38,7 +38,7 @@ Built with technologies that are definitely overkill for generating excuses, but
 - **Deployment**: Vercel (one-click deploy because we're lazy... efficient)
 - **External APIs**: Various APIs that somehow trust us with their data
 
-##  Getting Started (The "How Do I Make This Work?" Guide)
+## Getting Started (The "How Do I Make This Work?" Guide)
 
 ### Prerequisites (The Boring But Necessary Stuff)
 
@@ -49,28 +49,31 @@ Built with technologies that are definitely overkill for generating excuses, but
 - A working brain (optional)
 - 2–3 brain cells minimum, but not required
 
-
 ### Installation (Copy-Paste Your Way to Success)
 
 1. **Clone this masterpiece:**
+
 ```bash
 git clone <repository-url>
 cd quirkit-dashboard
 ```
 
 2. **Install the magic dependencies:**
+
 ```bash
 npm install
 # Go grab a coffee, this might take a minute
 ```
 
 3. **Set up your secret environment variables:**
+
 ```bash
 cp .env.example .env.local
 # Then edit .env.local with your actual API keys
 ```
 
 4. **Configure your `.env.local` file:**
+
 ```env
 # Vercel KV Database (for caching jokes because priorities)
 KV_REST_API_URL=your_kv_rest_api_url_here
@@ -84,14 +87,15 @@ HOLIDAY_API_KEY=your_holiday_api_key_here
 ```
 
 5. **Fire up the development server:**
+
 ```bash
 npm run dev
 # Watch the magic happen
 ```
 
 6. **Open your browser and navigate to [http://localhost:3000](http://localhost:3000)**
-   
-   *Congratulations! You're now the proud operator of a this thing.*
+
+   _Congratulations! You're now the proud operator of a this thing._
 
 ## Project Structure
 
@@ -117,7 +121,7 @@ src/
 └── utils/                # Utility functions
 ```
 
-##  Development (For the Brave Souls Who Want to Contribute)
+## Development (For the Brave Souls Who Want to Contribute)
 
 ### Adding New Features (The "I Have an Idea" Process)
 
