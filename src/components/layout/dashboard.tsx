@@ -1,15 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 
+
 'use client';
 import { useIsMobile } from '@/hooks/use-is-mobile';
 import { useState, useEffect } from 'react';
 import { DashboardLayout } from './dashboard-layout';
 import { FeatureCard } from '@/components/common/feature-card';
 import { FeatureModal } from '@/components/common/feature-modal';
-import { ExcuseGenerator, JokeViewer, QuoteDisplay, ShowerThought } from '@/components/features';
+import { ExcuseGenerator, JokeViewer, QuoteDisplay, ShowerThought, HolidayFinder, DrinkRecipe } from '@/components/features';
 import { FeatureCard as FeatureCardType } from '@/types';
 
-// Feature data - this will be the source of truth for all features
+// Feature data 
 const FEATURES: FeatureCardType[] = [
     // Phase 1 (MVP) Features
     {
@@ -52,7 +53,7 @@ const FEATURES: FeatureCardType[] = [
         description: 'i knew you were looking for a reason to take a day off',
         icon: 'holiday-icon',
         category: 'expansion',
-        enabled: false
+        enabled: true
     },
     {
         id: 'drink-recipes',
@@ -60,7 +61,7 @@ const FEATURES: FeatureCardType[] = [
         description: 'OHHH you drunk bastard, here are some recipes',
         icon: 'drink-icon',
         category: 'expansion',
-        enabled: false
+        enabled: true
     },
 
     // Phase 3 (Advanced) Features
@@ -93,7 +94,7 @@ const FEATURES: FeatureCardType[] = [
 export function Dashboard() {
     const [selectedFeature, setSelectedFeature] = useState<FeatureCardType | null>(null);
 
-    // Step 2: Call the hook to get the isMobile boolean.
+    // Call the hook to get the isMobile boolean.
     // This single line replaces the entire useEffect block.
     const isMobile = useIsMobile();
 
@@ -146,6 +147,10 @@ export function Dashboard() {
                             <QuoteDisplay />
                         ) : selectedFeature.id === 'shower-thoughts' ? (
                             <ShowerThought />
+                        ) : selectedFeature.id === 'holiday-finder' ? (
+                            <HolidayFinder />
+                        ) : selectedFeature.id === 'drink-recipes' ? (
+                            <DrinkRecipe />
                         ) : (
                             <div className="text-center py-8">
                                 <h3 className="text-xl font-semibold mb-4">{selectedFeature.title}</h3>

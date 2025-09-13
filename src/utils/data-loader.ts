@@ -86,10 +86,34 @@ export class DataLoader {
     };
   }
 
-  static getTodaysHoliday(): HolidayResponse {
-    // For fallback, just return a random holiday
-    // In real implementation, this would filter by today's date
-    return this.getRandomHoliday();
+  static getTodaysHoliday(date?: string): HolidayResponse {
+    const targetDate = date || new Date().toISOString().split('T')[0];
+    
+    // Try to find a holiday that matches today's date
+    const todaysHoliday = fallbackHolidays.find(holiday => {
+      const holidayDate = new Date(holiday.date);
+      const targetDateObj = new Date(targetDate);
+      
+      // Match month and day (ignore year for recurring holidays)
+      return holidayDate.getMonth() === targetDateObj.getMonth() && 
+             holidayDate.getDate() === targetDateObj.getDate();
+    });
+
+    if (todaysHoliday) {
+      return {
+        name: todaysHoliday.name,
+        description: todaysHoliday.description,
+        date: targetDate, // Use the requested date
+        source: 'fallback'
+      };
+    }
+
+    // If no specific holiday for today, return a random one
+    const randomHoliday = this.getRandomHoliday();
+    return {
+      ...randomHoliday,
+      date: targetDate // Update the date to today
+    };
   }
 
   static getAllHolidays(): Array<{name: string; description: string; date: string}> {

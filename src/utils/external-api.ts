@@ -195,38 +195,67 @@ export class ExternalAPIService {
   }
 
   static async getHoliday(date?: string): Promise<HolidayResponse> {
-    const targetDate = date || new Date().toISOString().split('T')[0];
+    // Use timezone-aware date calculation
+    const targetDate = date || this.getTodayInUserTimezone();
     const cacheKey = `api:holiday:${targetDate}`;
     
     try {
       return await this.fetchWithFallback(
         async () => {
-          // Try Calendarific API (would need API key)
+          // Try Calendarific API if API key is available
+          if (!process.env.HOLIDAY_API_KEY) {
+            throw new Error('Calendarific API key not available');
+          }
+
+          const dateObj = new Date(targetDate);
           const response = await this.fetchJSON<{
             response: {
               holidays: Array<{
                 name: string;
                 description: string;
                 date: { iso: string };
+                type: string[];
               }>;
             };
-          }>(`https://calendarific.com/api/v2/holidays?api_key=${process.env.CALENDARIFIC_API_KEY}&country=US&year=${new Date().getFullYear()}&day=${new Date().getDate()}&month=${new Date().getMonth() + 1}`);
+          }>(`https://calendarific.com/api/v2/holidays?api_key=${process.env.HOLIDAY_API_KEY}&country=US&year=${dateObj.getFullYear()}&day=${dateObj.getDate()}&month=${dateObj.getMonth() + 1}`);
           
-          const holiday = response.response.holidays[0];
+          // Filter for obscure/fun holidays (exclude major holidays)
+          const obscureHolidays = response.response.holidays.filter(holiday => 
+            !holiday.type.includes('national') || 
+            holiday.name.toLowerCase().includes('day') && 
+            !['christmas', 'thanksgiving', 'independence', 'memorial', 'labor'].some(major => 
+              holiday.name.toLowerCase().includes(major)
+            )
+          );
+
+          const holiday = obscureHolidays[0] || response.response.holidays[0];
+          
+          if (!holiday) {
+            throw new Error('No holidays found for date');
+          }
+
           return {
             name: holiday.name,
-            description: holiday.description,
+            description: holiday.description || `Celebrating ${holiday.name}!`,
             date: holiday.date.iso,
             source: 'api' as const
           };
         },
-        [DataLoader.getTodaysHoliday()],
+        [DataLoader.getTodaysHoliday(targetDate)],
         cacheKey
       );
     } catch (error) {
       ErrorHandler.logError(error as Error, 'getHoliday');
-      return DataLoader.getTodaysHoliday();
+      return DataLoader.getTodaysHoliday(targetDate);
     }
+  }
+
+  // Helper method to get today's date in user's timezone
+  private static getTodayInUserTimezone(): string {
+    // For server-side, we'll use UTC but this could be enhanced
+    // to accept timezone from request headers or user preferences
+    const now = new Date();
+    return now.toISOString().split('T')[0];
   }
 
   static async getDrink(): Promise<DrinkResponse> {
