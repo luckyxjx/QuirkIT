@@ -15,7 +15,7 @@ interface ComplimentData {
 }
 
 // In-memory storage for when Redis is not available
-let inMemoryCompliments: ComplimentData[] = [];
+const inMemoryCompliments: ComplimentData[] = [];
 
 // Simple profanity filter - basic implementation
 const PROFANITY_WORDS = [
@@ -78,7 +78,15 @@ async function storeCompliment(compliment: ComplimentData): Promise<void> {
     if (redisAvailable) {
         try {
             const redis = Redis.fromEnv();
-            await redis.hset(compliment.id, compliment as Record<string, any>);
+            await redis.hset(compliment.id, {
+                id: compliment.id,
+                message: compliment.message,
+                sender: compliment.sender,
+                timestamp: compliment.timestamp.toString(),
+                isModerated: compliment.isModerated.toString(),
+                isApproved: compliment.isApproved.toString(),
+                moderationFlags: JSON.stringify(compliment.moderationFlags || [])
+            });
 
             if (compliment.isApproved) {
                 await redis.lpush('approved_compliments', compliment.id);
@@ -107,7 +115,7 @@ async function getRandomCompliment(): Promise<{ message: string; sender: string;
 
             if (approvedIds && approvedIds.length > 0) {
                 const randomId = approvedIds[Math.floor(Math.random() * approvedIds.length)];
-                const complimentData = await redis.hgetall(randomId as string) as any as ComplimentData;
+                const complimentData = await redis.hgetall(randomId as string) as unknown as ComplimentData;
 
                 if (complimentData && complimentData.message) {
                     return {
