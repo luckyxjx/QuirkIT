@@ -65,8 +65,14 @@ function validateCompliment(message: string, sender: string): { isValid: boolean
 async function isRedisAvailable(): Promise<boolean> {
     try {
         // Check if environment variables are set
-        return !!(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN);
-    } catch {
+        // Check both old and new environment variable names
+        const hasUrl = !!(process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL);
+        const hasToken = !!(process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN);
+        console.log('Redis env check - URL:', hasUrl, 'Token:', hasToken);
+        console.log('URL value:', (process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL) ? 'SET' : 'NOT SET');
+        return hasUrl && hasToken;
+    } catch (error) {
+        console.log('Redis availability check failed:', error);
         return false;
     }
 }
@@ -78,6 +84,8 @@ async function storeCompliment(compliment: ComplimentData): Promise<void> {
     if (redisAvailable) {
         try {
             const redis = Redis.fromEnv();
+            console.log('Storing compliment to Redis:', compliment.id);
+
             await redis.hset(compliment.id, {
                 id: compliment.id,
                 message: compliment.message,
@@ -90,9 +98,15 @@ async function storeCompliment(compliment: ComplimentData): Promise<void> {
 
             if (compliment.isApproved) {
                 await redis.lpush('approved_compliments', compliment.id);
+                console.log('Added to approved_compliments:', compliment.id);
             } else {
                 await redis.lpush('moderation_queue', compliment.id);
+                console.log('Added to moderation_queue:', compliment.id);
             }
+
+            // Verify storage
+            const stored = await redis.hgetall(compliment.id);
+            console.log('Verified stored data:', stored);
         } catch (error) {
             console.warn('Redis storage failed, falling back to in-memory:', error);
             // Fall back to in-memory storage
@@ -109,25 +123,37 @@ async function getRandomCompliment(): Promise<{ message: string; sender: string;
     const redisAvailable = await isRedisAvailable();
 
     if (redisAvailable) {
-        try {
-            const redis = Redis.fromEnv();
-            const approvedIds = await redis.lrange('approved_compliments', 0, -1);
+        // Try Redis with retry logic
+        for (let attempt = 1; attempt <= 3; attempt++) {
+            try {
+                const redis = Redis.fromEnv();
+                const approvedIds = await redis.lrange('approved_compliments', 0, -1);
+                console.log(`Attempt ${attempt} - Found approved compliment IDs:`, approvedIds);
 
-            if (approvedIds && approvedIds.length > 0) {
-                const randomId = approvedIds[Math.floor(Math.random() * approvedIds.length)];
-                const complimentData = await redis.hgetall(randomId as string) as unknown as ComplimentData;
+                if (approvedIds && approvedIds.length > 0) {
+                    const randomId = approvedIds[Math.floor(Math.random() * approvedIds.length)];
+                    const rawData = await redis.hgetall(randomId as string);
 
-                if (complimentData && complimentData.message) {
-                    return {
-                        message: complimentData.message,
-                        sender: complimentData.sender,
-                        timestamp: complimentData.timestamp,
-                        source: 'database'
-                    };
+                    if (rawData && typeof rawData === 'object' && 'message' in rawData) {
+                        console.log('Successfully retrieved from Redis on attempt', attempt);
+                        return {
+                            message: rawData.message as string,
+                            sender: rawData.sender as string,
+                            timestamp: parseInt(rawData.timestamp as string, 10),
+                            source: 'database'
+                        };
+                    }
+                }
+                break; // Success, exit retry loop
+            } catch (error) {
+                console.warn(`Redis retrieval attempt ${attempt} failed:`, error);
+                if (attempt === 3) {
+                    console.warn('All Redis retry attempts failed, falling back to in-memory');
+                } else {
+                    // Wait before retry
+                    await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
                 }
             }
-        } catch (error) {
-            console.warn('Redis retrieval failed, falling back to in-memory:', error);
         }
     }
 

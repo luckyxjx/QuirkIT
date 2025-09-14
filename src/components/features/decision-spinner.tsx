@@ -13,7 +13,7 @@ interface DecisionSpinnerProps {
 }
 
 export function DecisionSpinner({ className }: DecisionSpinnerProps) {
-  const [choices, setChoices] = useState<string[]>(['Yes', 'No']);
+  const [choices, setChoices] = useState<string[]>(['Option 1', 'Option 2']);
   const [newChoice, setNewChoice] = useState('');
   const [isSpinning, setIsSpinning] = useState(false);
   const [result, setResult] = useState<string>('');
