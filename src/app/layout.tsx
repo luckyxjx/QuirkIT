@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   description: "A dashboard of fun and useful micro-tools including excuse generators, jokes, quotes, and more quirky features.",
   keywords: ["quirky", "tools", "dashboard", "fun", "entertainment", "productivity"],
   authors: [{ name: "Quirkit Team" }],
+  icons: {
+    icon: "/favicon.ico",              // browser tab
+    apple: "/icon-192x192.png",        // iOS home screen
+  },
+  manifest: "/manifest.json",
 };
 
 export const viewport = {
