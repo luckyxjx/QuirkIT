@@ -4,3 +4,6 @@ export { QuoteDisplay } from './quote-display';
 export { ShowerThought } from './shower-thought';
 export { HolidayFinder } from './holiday-finder';
 export { DrinkRecipe } from './drink-recipe';
+export { ProductivityTimer } from './productivity-timer';
+export { DecisionSpinner } from './decision-spinner';
+export { ComplimentMachine } from './compliment-machine';

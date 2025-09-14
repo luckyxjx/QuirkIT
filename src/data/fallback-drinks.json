@@ -1,111 +1,188 @@
 [
   {
-    "name": "Cosmic Lemonade",
+    "name": "Caipirinha (Brazil)",
     "ingredients": [
-      "2 cups fresh lemon juice",
-      "1 cup sugar",
-      "4 cups cold water",
-      "1 tsp blue food coloring",
-      "Edible glitter",
+      "1 lime, cut into wedges",
+      "2 teaspoons sugar",
+      "2 ounces cachaça",
+      "Crushed ice"
+    ],
+    "instructions": [
+      "Place the lime wedges and sugar into an Old Fashioned glass",
+      "Muddle well to release the lime juice and dissolve the sugar",
+      "Fill the glass with crushed ice",
+      "Pour the cachaça over the ice",
+      "Stir gently to combine the ingredients",
+      "Serve with a stirrer or a short straw"
+    ]
+  },
+  {
+    "name": "Pisco Sour (Peru)",
+    "ingredients": [
+      "2 ounces Pisco",
+      "1 ounce fresh lime juice",
+      "3/4 ounce simple syrup",
+      "1 fresh egg white",
+      "3-4 drops Angostura bitters",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Add Pisco, lime juice, simple syrup, and egg white to a cocktail shaker",
+      "Perform a 'dry shake' (shake without ice) for about 15 seconds to emulsify the egg white",
+      "Add ice to the shaker and shake again vigorously for about 30 seconds until well-chilled",
+      "Strain into a chilled coupe or rocks glass",
+      "Garnish with 3 to 4 drops of Angostura bitters on top of the foam"
+    ]
+  },
+  {
+    "name": "Aperol Spritz (Italy)",
+    "ingredients": [
+      "3 ounces Prosecco, chilled",
+      "2 ounces Aperol",
+      "1 ounce soda water or sparkling water",
       "Ice cubes",
-      "Lemon slices for garnish"
+      "Orange slice for garnish"
     ],
     "instructions": [
-      "Mix lemon juice and sugar until sugar dissolves",
-      "Add cold water and stir well",
-      "Add blue food coloring drop by drop until desired color",
-      "Add a pinch of edible glitter for cosmic effect",
-      "Serve over ice with lemon slice garnish",
-      "Watch it sparkle like the universe!"
+      "Fill a large wine glass with ice cubes",
+      "Pour in the Prosecco",
+      "Add the Aperol",
+      "Top with a splash of soda water",
+      "Stir gently to combine",
+      "Garnish with a fresh orange slice"
     ]
   },
   {
-    "name": "Unicorn Smoothie",
+    "name": "Horchata (Mexico)",
     "ingredients": [
-      "1 frozen banana",
-      "1/2 cup frozen mango chunks",
-      "1/2 cup coconut milk",
-      "1 tbsp honey",
-      "1/4 tsp vanilla extract",
-      "Pink food coloring",
-      "Whipped cream",
-      "Rainbow sprinkles"
+      "1 cup long-grain white rice",
+      "1 cinnamon stick",
+      "4 cups hot water",
+      "1/2 cup whole milk",
+      "1/2 cup sugar (or to taste)",
+      "1 teaspoon vanilla extract",
+      "Ground cinnamon for dusting"
     ],
     "instructions": [
-      "Blend banana, mango, coconut milk, honey, and vanilla",
-      "Add pink food coloring for magical color",
-      "Blend until smooth and creamy",
-      "Pour into glass",
-      "Top with whipped cream",
-      "Sprinkle with rainbow sprinkles",
-      "Believe in magic while drinking!"
+      "In a bowl, combine the rice, cinnamon stick, and hot water",
+      "Let it soak for at least 4 hours, or preferably overnight",
+      "Remove the cinnamon stick and pour the rice and water into a blender",
+      "Blend on high until the rice is finely ground",
+      "Strain the mixture through a fine-mesh sieve or cheesecloth into a pitcher",
+      "Press the solids to extract all the liquid, then discard the solids",
+      "Stir in the milk, sugar, and vanilla extract until the sugar is dissolved",
+      "Chill thoroughly in the refrigerator",
+      "Serve over ice and dust with ground cinnamon before serving"
     ]
   },
   {
-    "name": "Wizard's Brew Hot Chocolate",
+    "name": "Irish Coffee (Ireland)",
     "ingredients": [
-      "2 cups whole milk",
-      "1/4 cup dark chocolate chips",
-      "2 tbsp cocoa powder",
-      "2 tbsp sugar",
-      "1/4 tsp cinnamon",
-      "Pinch of cayenne pepper",
-      "Marshmallows",
-      "Chocolate shavings"
+      "1.5 ounces Irish whiskey",
+      "2 teaspoons brown sugar",
+      "6 ounces hot, freshly brewed coffee",
+      "Heavy cream, lightly whipped"
     ],
     "instructions": [
-      "Heat milk in a saucepan over medium heat",
-      "Whisk in chocolate chips until melted",
-      "Add cocoa powder, sugar, and cinnamon",
-      "Add a tiny pinch of cayenne for magic",
-      "Whisk until frothy and smooth",
-      "Pour into mug",
-      "Top with marshmallows and chocolate shavings",
-      "Cast a warming spell while sipping!"
+      "Preheat a heatproof glass mug by filling it with hot water and then pouring it out",
+      "Add the brown sugar to the warm mug",
+      "Pour in the hot coffee and stir until the sugar is completely dissolved",
+      "Add the Irish whiskey and stir again",
+      "Gently float the lightly whipped cream on top by pouring it over the back of a warm spoon",
+      "Do not stir. The drink is meant to be drunk through the cool cream"
     ]
   },
   {
-    "name": "Mermaid Water",
+    "name": "Mango Lassi (India)",
     "ingredients": [
-      "2 cups coconut water",
-      "1/4 cup pineapple juice",
-      "1 tbsp lime juice",
-      "1 tsp honey",
-      "Blue spirulina powder",
-      "Coconut flakes",
+      "1 cup plain yogurt",
+      "1/2 cup milk",
+      "1 cup chopped ripe mango (fresh or frozen)",
+      "2-4 teaspoons sugar or honey, to taste",
+      "A pinch of ground cardamom (optional)",
+      "Mint leaves for garnish"
+    ],
+    "instructions": [
+      "Place the yogurt, milk, mango, and sweetener in a blender",
+      "Add a pinch of cardamom if desired",
+      "Blend until completely smooth and creamy",
+      "If the lassi is too thick, add a little more milk and blend again",
+      "Taste and adjust sweetness if necessary",
+      "Pour into chilled glasses",
+      "Garnish with a fresh mint leaf and serve immediately"
+    ]
+  },
+  {
+    "name": "Sake (Nihonshu - Japan)",
+    "ingredients": [
+      "Sake of your choice (e.g., Junmai, Ginjo)"
+    ],
+    "instructions": [
+      "Sake can be served chilled, at room temperature, or warm, depending on the type and personal preference",
+      "To serve chilled, refrigerate the bottle for a few hours before serving",
+      "To serve warm (atsukan), pour sake into a ceramic flask (tokkuri)",
+      "Place the tokkuri in a pan of water and heat gently. Do not boil. The ideal temperature is around 40-45°C (104-113°F)",
+      "Pour from the tokkuri into small ceramic cups (ochoko or sakazuki)",
+      "Sip slowly and appreciate the complex flavors"
+    ]
+  },
+  {
+    "name": "Teh Tarik (Malaysia)",
+    "ingredients": [
+      "2 tablespoons black tea powder or 2 black tea bags",
+      "1 cup hot water",
+      "3-4 tablespoons sweetened condensed milk"
+    ],
+    "instructions": [
+      "Steep the black tea in hot water for about 5 minutes to create a strong brew",
+      "Strain the tea into a mug or heatproof cup",
+      "Add the sweetened condensed milk and stir until dissolved",
+      "Now for the 'pulling' (tarik): Pour the tea mixture into another mug from a height",
+      "Pour it back and forth between the two mugs several times",
+      "The pulling cools the tea and creates its signature frothy top",
+      "Increase the height of the pour as you get more confident to create more froth",
+      "Serve hot and frothy"
+    ]
+  },
+  {
+    "name": "Sangria (Spain)",
+    "ingredients": [
+      "1 bottle (750ml) of dry red wine (like Rioja)",
+      "1 large orange, sliced",
+      "1 large lemon, sliced",
+      "1 apple, cored and chopped",
+      "1/4 cup brandy",
+      "2-4 tablespoons sugar",
+      "1 cup orange juice",
+      "1 cup sparkling water or club soda, chilled"
+    ],
+    "instructions": [
+      "In a large pitcher, combine the red wine, orange slices, lemon slices, and chopped apple",
+      "Stir in the brandy and sugar until the sugar is dissolved",
+      "Add the orange juice and stir again",
+      "Cover the pitcher and refrigerate for at least 4 hours, or up to overnight, to allow the flavors to meld",
+      "Just before serving, top off with chilled sparkling water",
+      "Serve in glasses over ice, ensuring each glass gets some fruit"
+    ]
+  },
+  {
+    "name": "Chapman (Nigeria)",
+    "ingredients": [
+      "1/2 cup Fanta Orange soda",
+      "1/2 cup Sprite or 7-Up",
+      "2 dashes of Angostura bitters",
+      "1 tablespoon grenadine syrup",
       "Ice cubes",
-      "Pineapple wedge"
+      "Slices of cucumber, lemon, and orange for garnish"
     ],
     "instructions": [
-      "Mix coconut water, pineapple juice, and lime juice",
-      "Stir in honey until dissolved",
-      "Add blue spirulina powder for ocean color",
-      "Stir until well combined",
-      "Serve over ice",
-      "Garnish with coconut flakes and pineapple",
-      "Swim with the mermaids (metaphorically)!"
-    ]
-  },
-  {
-    "name": "Dragon's Breath Ginger Ale",
-    "ingredients": [
-      "2 inches fresh ginger, sliced",
-      "1/4 cup sugar",
-      "1/4 cup water",
-      "2 cups sparkling water",
-      "1 tbsp lime juice",
-      "Red food coloring",
-      "Lime wedges",
-      "Mint leaves"
-    ],
-    "instructions": [
-      "Simmer ginger, sugar, and water for 10 minutes",
-      "Strain the ginger syrup and let cool",
-      "Mix syrup with sparkling water and lime juice",
-      "Add red food coloring for fiery effect",
-      "Serve over ice",
-      "Garnish with lime wedges and mint",
-      "Breathe fire responsibly!"
+      "Fill a large mug or glass with ice cubes",
+      "Pour in the Fanta and Sprite",
+      "Add the dashes of Angostura bitters",
+      "Pour in the grenadine for color and sweetness",
+      "Stir gently to combine everything",
+      "Garnish with slices of cucumber, lemon, and orange",
+      "Serve with a straw and enjoy this refreshing Nigerian mocktail"
     ]
   }
 ]

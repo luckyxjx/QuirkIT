@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import { DashboardLayout } from './dashboard-layout';
 import { FeatureCard } from '@/components/common/feature-card';
 import { FeatureModal } from '@/components/common/feature-modal';
-import { ExcuseGenerator, JokeViewer, QuoteDisplay, ShowerThought, HolidayFinder, DrinkRecipe } from '@/components/features';
+import { ExcuseGenerator, JokeViewer, QuoteDisplay, ShowerThought, HolidayFinder, DrinkRecipe, ProductivityTimer, DecisionSpinner, ComplimentMachine } from '@/components/features';
 import { FeatureCard as FeatureCardType } from '@/types';
 
 // Feature data 
@@ -71,7 +71,7 @@ const FEATURES: FeatureCardType[] = [
         description: 'Track minutes, lose hours, question life choices',
         icon: 'timer-icon',
         category: 'advanced',
-        enabled: false
+        enabled: true
     },
     {
         id: 'decision-spinner',
@@ -79,7 +79,7 @@ const FEATURES: FeatureCardType[] = [
         description: 'i knew you were indecisive, so here is a spinner',
         icon: 'spinner-icon',
         category: 'advanced',
-        enabled: false
+        enabled: true
     },
     {
         id: 'compliment-machine',
@@ -87,7 +87,7 @@ const FEATURES: FeatureCardType[] = [
         description: 'Generate random compliments to boost your ego',
         icon: 'compliment-icon',
         category: 'advanced',
-        enabled: false
+        enabled: true
     }
 ];
 
@@ -151,6 +151,12 @@ export function Dashboard() {
                             <HolidayFinder />
                         ) : selectedFeature.id === 'drink-recipes' ? (
                             <DrinkRecipe />
+                        ) : selectedFeature.id === 'productivity-timer' ? (
+                            <ProductivityTimer />
+                        ) : selectedFeature.id === 'decision-spinner' ? (
+                            <DecisionSpinner />
+                        ) : selectedFeature.id === 'compliment-machine' ? (
+                            <ComplimentMachine />
                         ) : (
                             <div className="text-center py-8">
                                 <h3 className="text-xl font-semibold mb-4">{selectedFeature.title}</h3>

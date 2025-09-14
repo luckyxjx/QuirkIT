@@ -12,7 +12,7 @@ import {
   DrawerContent, 
   DrawerTitle,
   DrawerHeader,
-  DrawerTrigger, // You might not need this if you control state externally
+ // You might not need this if you control state externally
 } from "@/components/ui/drawer";
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';

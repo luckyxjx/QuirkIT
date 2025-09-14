@@ -1,52 +1,297 @@
 [
   {
-    "name": "National Bubble Wrap Appreciation Day",
-    "description": "A day dedicated to the simple joy of popping bubble wrap. Pop away your stress!",
-    "date": "2024-01-29"
+    "name": "National Sticker Day",
+    "description": "A day to celebrate all things sticky, from bumper stickers to the ones you collected as a kid.",
+    "date": "2025-01-13"
   },
   {
-    "name": "International Talk Like a Pirate Day",
-    "description": "Ahoy matey! A day to embrace your inner pirate and speak like you're sailing the seven seas.",
-    "date": "2024-09-19"
+    "name": "National Popcorn Day",
+    "description": "Whether it's salty, sweet, or buttery, it's the perfect day to enjoy America's favorite movie snack.",
+    "date": "2025-01-19"
   },
   {
-    "name": "National Sock Day",
-    "description": "Celebrating the humble sock and its vital role in keeping our feet happy and warm.",
-    "date": "2024-12-04"
+    "name": "National Compliment Day",
+    "description": "A day dedicated to spreading positivity by giving genuine compliments to friends, family, and strangers.",
+    "date": "2025-01-24"
+  },
+  {
+    "name": "Opposite Day",
+    "description": "A day where you say the opposite of what you mean. Or is it a day you don't? It's very confusing.",
+    "date": "2025-01-25"
+  },
+  {
+    "name": "Data Privacy Day",
+    "description": "An international event to raise awareness and promote privacy and data protection best practices.",
+    "date": "2025-01-28"
+  },
+  {
+    "name": "National Puzzle Day",
+    "description": "A day to challenge your brain with jigsaw puzzles, crosswords, Sudoku, or any other kind of puzzle you enjoy.",
+    "date": "2025-01-29"
+  },
+  {
+    "name": "Bubble Wrap Appreciation Day",
+    "description": "A day dedicated to the simple, stress-relieving joy of popping bubble wrap.",
+    "date": "2025-01-27"
+  },
+  {
+    "name": "National Wear Red Day",
+    "description": "A day to wear red to show support and raise awareness for heart disease.",
+    "date": "2025-02-07"
+  },
+  {
+    "name": "National Pizza Day",
+    "description": "The perfect excuse to indulge in a slice (or a whole pie) of your favorite pizza.",
+    "date": "2025-02-09"
+  },
+  {
+    "name": "World Radio Day",
+    "description": "A day to celebrate radio as a powerful medium for communication and entertainment.",
+    "date": "2025-02-13"
+  },
+  {
+    "name": "Random Acts of Kindness Day",
+    "description": "A day to pay it forward and make the world a little brighter through simple acts of kindness.",
+    "date": "2025-02-17"
+  },
+  {
+    "name": "National Drink Wine Day",
+    "description": "A day to appreciate and enjoy the history and health benefits of wine. Cheers!",
+    "date": "2025-02-18"
+  },
+  {
+    "name": "World Thinking Day",
+    "description": "A day of international friendship celebrated by Girl Scouts and Girl Guides in over 150 countries.",
+    "date": "2025-02-22"
+  },
+  {
+    "name": "National Chili Day",
+    "description": "A day to cook up a warm, comforting bowl of chili, whether you like it spicy, mild, with beans, or without.",
+    "date": "2025-02-27"
+  },
+  {
+    "name": "World Compliment Day",
+    "description": "An opportunity to make someone's day by offering a sincere compliment.",
+    "date": "2025-03-01"
+  },
+  {
+    "name": "National Grammar Day",
+    "description": "A day for grammar enthusiasts to celebrate and for everyone else to be extra careful with their punctuation.",
+    "date": "2025-03-04"
+  },
+  {
+    "name": "International Women's Day",
+    "description": "A global day celebrating the social, economic, cultural, and political achievements of women.",
+    "date": "2025-03-08"
+  },
+  {
+    "name": "National Napping Day",
+    "description": "Observed annually the day after daylight saving time begins, this day encourages a well-deserved nap.",
+    "date": "2025-03-10"
+  },
+  {
+    "name": "Pi Day",
+    "description": "Celebrating the mathematical constant π (3.14) with pie, both the mathematical and the edible kind.",
+    "date": "2025-03-14"
+  },
+  {
+    "name": "World Sleep Day",
+    "description": "An annual event to raise awareness of sleep as a human privilege that is often compromised by modern life.",
+    "date": "2025-03-14"
+  },
+  {
+    "name": "National Awkward Moments Day",
+    "description": "A day to embrace and laugh about the cringe-worthy, awkward moments that happen to us all.",
+    "date": "2025-03-18"
+  },
+  {
+    "name": "International Day of Happiness",
+    "description": "A day to be happy, as recognized by the United Nations. A great day to focus on what brings you joy.",
+    "date": "2025-03-20"
+  },
+  {
+    "name": "World Poetry Day",
+    "description": "A day to appreciate and support poets and the art of poetry around the world.",
+    "date": "2025-03-21"
+  },
+  {
+    "name": "National Puppy Day",
+    "description": "A day to celebrate the unconditional love and joy that puppies bring to our lives.",
+    "date": "2025-03-23"
+  },
+  {
+    "name": "Waffle Day",
+    "description": "A day to enjoy the crispy, fluffy, grid-patterned delights known as waffles.",
+    "date": "2025-03-25"
+  },
+  {
+    "name": "April Fool's Day",
+    "description": "A day for pranks and practical jokes. Trust no one!",
+    "date": "2025-04-01"
+  },
+  {
+    "name": "National Walking Day",
+    "description": "A day to encourage everyone to get out and go for a walk for their physical and mental health.",
+    "date": "2025-04-02"
+  },
+  {
+    "name": "World Health Day",
+    "description": "A global health awareness day celebrated every year under the sponsorship of the World Health Organization (WHO).",
+    "date": "2025-04-07"
+  },
+  {
+    "name": "National Unicorn Day",
+    "description": "A day to celebrate the mythical, horned creature that has captivated imaginations for centuries.",
+    "date": "2025-04-09"
+  },
+  {
+    "name": "National Siblings Day",
+    "description": "A day to honor and appreciate your brothers and sisters.",
+    "date": "2025-04-10"
+  },
+  {
+    "name": "National Grilled Cheese Sandwich Day",
+    "description": "A day dedicated to the simple, comforting, and delicious grilled cheese sandwich.",
+    "date": "2025-04-12"
+  },
+  {
+    "name": "National Scrabble Day",
+    "description": "A day to play the classic word game and show off your vocabulary.",
+    "date": "2025-04-13"
+  },
+  {
+    "name": "National Look-Alike Day",
+    "description": "A day to find your doppelgänger or dress up to look like your favorite celebrity.",
+    "date": "2025-04-20"
+  },
+  {
+    "name": "Earth Day",
+    "description": "An annual event to demonstrate support for environmental protection.",
+    "date": "2025-04-22"
   },
   {
     "name": "World Penguin Day",
-    "description": "A day to appreciate these tuxedo-wearing birds and their waddle-some ways.",
-    "date": "2024-04-25"
+    "description": "A day to learn about and appreciate these amazing flightless birds.",
+    "date": "2025-04-25"
   },
   {
-    "name": "National Pancake Day",
-    "description": "Stack 'em high and celebrate the fluffy goodness of pancakes in all their syrupy glory.",
-    "date": "2024-02-13"
+    "name": "International Dance Day",
+    "description": "A global celebration of dance, created to encourage participation and education in dance.",
+    "date": "2025-04-29"
   },
   {
-    "name": "International Ninja Day",
-    "description": "A day to honor the stealthy arts of ninjas. You probably won't see them celebrating.",
-    "date": "2024-12-05"
+    "name": "National Honesty Day",
+    "description": "A day to encourage honesty and straightforward communication in politics, relationships, and education.",
+    "date": "2025-04-30"
   },
   {
-    "name": "National Backwards Day",
-    "description": "yaD sdrawkcaB lanoitaN - A day to do everything in reverse!",
-    "date": "2024-01-31"
+    "name": "May the 4th Be With You (Star Wars Day)",
+    "description": "An unofficial holiday to celebrate the Star Wars franchise. May the Force be with you.",
+    "date": "2025-05-04"
+  },
+  {
+    "name": "Cinco de Mayo",
+    "description": "Commemorates the Mexican Army's victory over the French Empire at the Battle of Puebla in 1862.",
+    "date": "2025-05-05"
+  },
+  {
+    "name": "World Password Day",
+    "description": "A day to promote better password habits and digital security.",
+    "date": "2025-05-01"
+  },
+  {
+    "name": "National Eat What You Want Day",
+    "description": "A day to set aside your diet and indulge in your favorite foods without any guilt.",
+    "date": "2025-05-11"
+  },
+  {
+    "name": "National Talk Like Yoda Day",
+    "description": "A fun day it is. Speak like the Jedi Master, you must.",
+    "date": "2025-05-21"
+  },
+  {
+    "name": "National Towel Day",
+    "description": "Celebrated in honor of author Douglas Adams, fans carry a towel to show their love for The Hitchhiker's Guide to the Galaxy.",
+    "date": "2025-05-25"
+  },
+  {
+    "name": "National Hamburger Day",
+    "description": "A day to fire up the grill and enjoy a classic American hamburger.",
+    "date": "2025-05-28"
+  },
+  {
+    "name": "World Milk Day",
+    "description": "A day established by the Food and Agriculture Organization of the United Nations to recognize the importance of milk as a global food.",
+    "date": "2025-06-01"
+  },
+  {
+    "name": "National Donut Day",
+    "description": "A day to enjoy a donut and celebrate its history, which is tied to The Salvation Army.",
+    "date": "2025-06-06"
+  },
+  {
+    "name": "World Oceans Day",
+    "description": "A day for humanity to celebrate the ocean and our personal connection to the sea.",
+    "date": "2025-06-08"
+  },
+  {
+    "name": "National Flip Flop Day",
+    "description": "A day to wear your favorite flip-flops and embrace the casual spirit of summer.",
+    "date": "2025-06-20"
+  },
+  {
+    "name": "National Selfie Day",
+    "description": "A day to snap a selfie and share it with the world.",
+    "date": "2025-06-21"
   },
   {
     "name": "World UFO Day",
-    "description": "Keep watching the skies! A day dedicated to unidentified flying objects and extraterrestrial life.",
-    "date": "2024-07-02"
+    "description": "A day for people to gather and watch the skies for unidentified flying objects.",
+    "date": "2025-07-02"
   },
   {
-    "name": "National Rubber Ducky Day",
-    "description": "Celebrating the iconic bath toy that makes every bath a little more fun. Squeak!",
-    "date": "2024-01-13"
+    "name": "World Chocolate Day",
+    "description": "A day to indulge in the rich, delicious world of chocolate.",
+    "date": "2025-07-07"
   },
   {
-    "name": "International Pillow Fight Day",
-    "description": "Grab your fluffiest weapon and join the worldwide pillow fight phenomenon!",
-    "date": "2024-04-06"
+    "name": "National Mac and Cheese Day",
+    "description": "A day to celebrate the ultimate comfort food: macaroni and cheese.",
+    "date": "2025-07-14"
+  },
+  {
+    "name": "World Emoji Day",
+    "description": "A day to celebrate the pictographs that have become a global language.",
+    "date": "2025-07-17"
+  },
+  {
+    "name": "International Day of Friendship",
+    "description": "A United Nations day that promotes the role that friendship plays in promoting peace.",
+    "date": "2025-07-30"
+  },
+  {
+    "name": "International Cat Day",
+    "description": "A day to celebrate and appreciate our feline friends.",
+    "date": "2025-08-08"
+  },
+  {
+    "name": "National Book Lovers Day",
+    "description": "A day for book lovers to celebrate their favorite reads and the joy of reading.",
+    "date": "2025-08-09"
+  },
+  {
+    "name": "National Lazy Day",
+    "description": "The perfect excuse to do absolutely nothing and relax.",
+    "date": "2025-08-10"
+  },
+  {
+    "name": "World Photography Day",
+    "description": "An annual, worldwide celebration of the art, craft, science, and history of photography.",
+    "date": "2025-08-19"
+  },
+  {
+    "name": "National Dog Day",
+    "description": "A day to celebrate all dogs, mixed breed and pure.",
+    "date": "2025-08-26"
   }
 ]
