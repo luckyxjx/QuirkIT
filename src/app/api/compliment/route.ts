@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import { NextRequest } from 'next/server';
 import { APIResponseUtil } from '@/utils/api-response';
 import { Redis } from '@upstash/redis';
