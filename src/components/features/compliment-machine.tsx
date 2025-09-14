@@ -103,7 +103,8 @@ export function ComplimentMachine({ className }: ComplimentMachineProps) {
                     Compliment Machine
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400">
-                    Spread joy and receive kindness from others
+                    Spread joy and receive kindness from strangers <br />
+                    (YES , random people will see this!)
                 </p>
             </div>
 

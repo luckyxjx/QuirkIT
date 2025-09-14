@@ -61,7 +61,7 @@ export function DrinkRecipe({ className }: DrinkRecipeProps) {
                     Drink Recipes
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400">
-                    Discover delicious cocktails and mocktails
+                    OHHH you drunk bastard, here are some recipes
                 </p>
             </div>
 
@@ -70,7 +70,7 @@ export function DrinkRecipe({ className }: DrinkRecipeProps) {
                     <div className="text-center flex-1 flex flex-col justify-center">
                         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
                         <p className="text-gray-600 dark:text-gray-400">
-                            Mixing up something special...
+                            Hold up, let me find you something to get wasted on...
                         </p>
                     </div>
                 ) : error ? (
@@ -85,7 +85,7 @@ export function DrinkRecipe({ className }: DrinkRecipeProps) {
                                 </div>
                             </div>
                         </div>
-                        <p className="font-medium mb-2">Bar is closed!</p>
+                        <p className="font-medium mb-2">Bartender passed out!</p>
                         <p className="text-sm">{error}</p>
                     </div>
                 ) : drink ? (
@@ -177,7 +177,7 @@ export function DrinkRecipe({ className }: DrinkRecipeProps) {
                                 <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-1 bg-current rounded-full"></div>
                             </div>
                         </div>
-                        <p>Ready to mix something delicious?</p>
+                        <p>Ready to get absolutely hammered? Let's find you a drink!</p>
                     </div>
                 )}
             </Card>
