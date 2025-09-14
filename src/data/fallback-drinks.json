@@ -1,188 +1,426 @@
 [
   {
-    "name": "Caipirinha (Brazil)",
+    "name": "Iced Latte",
     "ingredients": [
-      "1 lime, cut into wedges",
-      "2 teaspoons sugar",
-      "2 ounces cachaça",
-      "Crushed ice"
+      "2 shots espresso",
+      "1 cup cold milk",
+      "1/2 cup ice cubes",
+      "Optional: 1 teaspoon simple syrup or vanilla syrup"
     ],
     "instructions": [
-      "Place the lime wedges and sugar into an Old Fashioned glass",
-      "Muddle well to release the lime juice and dissolve the sugar",
-      "Fill the glass with crushed ice",
-      "Pour the cachaça over the ice",
-      "Stir gently to combine the ingredients",
-      "Serve with a stirrer or a short straw"
+      "Brew two shots of espresso and let them cool slightly.",
+      "Fill a tall glass with ice cubes.",
+      "Pour in the espresso, then top with cold milk.",
+      "Add syrup if desired and stir before serving."
     ]
   },
   {
-    "name": "Pisco Sour (Peru)",
+    "name": "Cold Brew Coffee",
     "ingredients": [
-      "2 ounces Pisco",
-      "1 ounce fresh lime juice",
-      "3/4 ounce simple syrup",
-      "1 fresh egg white",
-      "3-4 drops Angostura bitters",
+      "1 cup coarsely ground coffee beans",
+      "4 cups cold filtered water"
+    ],
+    "instructions": [
+      "Combine ground coffee and cold water in a large jar or French press.",
+      "Stir well to saturate the grounds.",
+      "Cover and refrigerate for 12–18 hours.",
+      "Strain through a fine mesh sieve or coffee filter.",
+      "Serve over ice, with milk or syrup if desired."
+    ]
+  },
+  {
+    "name": "Greek Frappé",
+    "ingredients": [
+      "2 teaspoons instant coffee",
+      "1 teaspoon sugar (optional)",
+      "2 tablespoons cold water",
+      "1/2 cup cold milk or water",
       "Ice cubes"
     ],
     "instructions": [
-      "Add Pisco, lime juice, simple syrup, and egg white to a cocktail shaker",
-      "Perform a 'dry shake' (shake without ice) for about 15 seconds to emulsify the egg white",
-      "Add ice to the shaker and shake again vigorously for about 30 seconds until well-chilled",
-      "Strain into a chilled coupe or rocks glass",
-      "Garnish with 3 to 4 drops of Angostura bitters on top of the foam"
+      "In a shaker or jar, combine instant coffee, sugar, and 2 tablespoons cold water.",
+      "Shake or blend until thick foam forms.",
+      "Fill a tall glass with ice, pour in the foam.",
+      "Top with cold milk or water.",
+      "Serve with a straw."
     ]
   },
   {
-    "name": "Aperol Spritz (Italy)",
+    "name": "Vietnamese Iced Coffee (Cà Phê Sữa Đá)",
     "ingredients": [
-      "3 ounces Prosecco, chilled",
-      "2 ounces Aperol",
-      "1 ounce soda water or sparkling water",
+      "2 tablespoons dark roast ground coffee",
+      "2/3 cup boiling water",
+      "2 tablespoons sweetened condensed milk",
+      "1/2 cup ice cubes"
+    ],
+    "instructions": [
+      "Place condensed milk in a tall glass.",
+      "Brew coffee using a Vietnamese phin filter over the glass with condensed milk.",
+      "Stir to combine.",
+      "Add ice cubes and serve immediately."
+    ]
+  },
+  {
+    "name": "Virgin Mojito",
+    "ingredients": [
+      "10 fresh mint leaves",
+      "1 tablespoon sugar",
+      "1/2 lime, cut into wedges",
+      "1/2 cup soda water",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "In a glass, muddle mint leaves, sugar, and lime wedges.",
+      "Fill with ice cubes.",
+      "Top with soda water and stir.",
+      "Garnish with extra mint."
+    ]
+  },
+  {
+    "name": "Shirley Temple",
+    "ingredients": [
+      "1/2 cup ginger ale",
+      "1/2 cup lemon-lime soda",
+      "1 tablespoon grenadine",
+      "Maraschino cherry for garnish"
+    ],
+    "instructions": [
+      "Fill a glass with ice.",
+      "Pour ginger ale and lemon-lime soda over ice.",
+      "Add grenadine and stir gently.",
+      "Garnish with a maraschino cherry."
+    ]
+  },
+  {
+    "name": "Nojito",
+    "ingredients": [
+      "10 mint leaves",
+      "1 tablespoon lime juice",
+      "1 teaspoon sugar",
+      "1/2 cup tonic water",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Muddle mint, sugar, and lime juice in a glass.",
+      "Add ice cubes.",
+      "Top with tonic water and stir.",
+      "Garnish with lime wedge."
+    ]
+  },
+  {
+    "name": "Lemon-Basil Cooler",
+    "ingredients": [
+      "1/2 cup fresh lemon juice",
+      "1/4 cup simple syrup",
+      "6 fresh basil leaves",
+      "1 cup cold water",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Muddle basil leaves with lemon juice and simple syrup.",
+      "Add water and stir.",
+      "Serve over ice, garnished with basil sprig."
+    ]
+  },
+  {
+    "name": "Agua Fresca de Sandía (Watermelon)",
+    "ingredients": [
+      "4 cups watermelon cubes",
+      "2 cups cold water",
+      "2 tablespoons sugar (optional)",
+      "Juice of 1 lime"
+    ],
+    "instructions": [
+      "Blend watermelon, water, sugar, and lime juice until smooth.",
+      "Strain if desired.",
+      "Serve chilled over ice."
+    ]
+  },
+  {
+    "name": "Margarita",
+    "ingredients": [
+      "2 ounces tequila",
+      "1 ounce triple sec (Cointreau)",
+      "1 ounce lime juice",
+      "Salt for rim",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Rub lime on the rim of a glass and dip into salt.",
+      "Shake tequila, triple sec, lime juice, and ice in a shaker.",
+      "Strain into the glass with fresh ice.",
+      "Serve with lime wedge."
+    ]
+  },
+  {
+    "name": "Mojito",
+    "ingredients": [
+      "10 fresh mint leaves",
+      "1 tablespoon sugar",
+      "1/2 lime, cut into wedges",
+      "2 ounces white rum",
+      "Soda water",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Muddle mint, sugar, and lime in a glass.",
+      "Fill with ice.",
+      "Add rum and stir.",
+      "Top with soda water and garnish with mint."
+    ]
+  },
+  {
+    "name": "Old Fashioned",
+    "ingredients": [
+      "2 ounces bourbon or rye whiskey",
+      "1 sugar cube",
+      "2 dashes Angostura bitters",
+      "Orange peel",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Place sugar cube in a glass and saturate with bitters.",
+      "Add a splash of water and muddle.",
+      "Fill glass with ice and add whiskey.",
+      "Stir gently and garnish with orange peel."
+    ]
+  },
+  {
+    "name": "Piña Colada",
+    "ingredients": [
+      "2 ounces white rum",
+      "2 ounces coconut cream",
+      "4 ounces pineapple juice",
+      "1/2 cup crushed ice"
+    ],
+    "instructions": [
+      "Blend rum, coconut cream, pineapple juice, and crushed ice until smooth.",
+      "Pour into a chilled glass.",
+      "Garnish with pineapple wedge and cherry."
+    ]
+  },
+  {
+    "name": "Negroni",
+    "ingredients": [
+      "1 ounce gin",
+      "1 ounce Campari",
+      "1 ounce sweet vermouth",
       "Ice cubes",
-      "Orange slice for garnish"
+      "Orange peel"
     ],
     "instructions": [
-      "Fill a large wine glass with ice cubes",
-      "Pour in the Prosecco",
-      "Add the Aperol",
-      "Top with a splash of soda water",
-      "Stir gently to combine",
-      "Garnish with a fresh orange slice"
+      "Fill a glass with ice.",
+      "Pour in gin, Campari, and vermouth.",
+      "Stir well.",
+      "Garnish with orange peel."
     ]
   },
   {
-    "name": "Horchata (Mexico)",
+    "name": "Espresso Martini",
     "ingredients": [
-      "1 cup long-grain white rice",
-      "1 cinnamon stick",
-      "4 cups hot water",
-      "1/2 cup whole milk",
-      "1/2 cup sugar (or to taste)",
-      "1 teaspoon vanilla extract",
-      "Ground cinnamon for dusting"
+      "2 ounces vodka",
+      "1 ounce coffee liqueur (Kahlúa)",
+      "1 ounce freshly brewed espresso",
+      "Ice cubes"
     ],
     "instructions": [
-      "In a bowl, combine the rice, cinnamon stick, and hot water",
-      "Let it soak for at least 4 hours, or preferably overnight",
-      "Remove the cinnamon stick and pour the rice and water into a blender",
-      "Blend on high until the rice is finely ground",
-      "Strain the mixture through a fine-mesh sieve or cheesecloth into a pitcher",
-      "Press the solids to extract all the liquid, then discard the solids",
-      "Stir in the milk, sugar, and vanilla extract until the sugar is dissolved",
-      "Chill thoroughly in the refrigerator",
-      "Serve over ice and dust with ground cinnamon before serving"
+      "Shake vodka, coffee liqueur, espresso, and ice in a shaker.",
+      "Strain into a chilled martini glass.",
+      "Garnish with coffee beans."
     ]
   },
   {
-    "name": "Irish Coffee (Ireland)",
+    "name": "Mango Lassi",
     "ingredients": [
-      "1.5 ounces Irish whiskey",
-      "2 teaspoons brown sugar",
-      "6 ounces hot, freshly brewed coffee",
-      "Heavy cream, lightly whipped"
-    ],
-    "instructions": [
-      "Preheat a heatproof glass mug by filling it with hot water and then pouring it out",
-      "Add the brown sugar to the warm mug",
-      "Pour in the hot coffee and stir until the sugar is completely dissolved",
-      "Add the Irish whiskey and stir again",
-      "Gently float the lightly whipped cream on top by pouring it over the back of a warm spoon",
-      "Do not stir. The drink is meant to be drunk through the cool cream"
-    ]
-  },
-  {
-    "name": "Mango Lassi (India)",
-    "ingredients": [
-      "1 cup plain yogurt",
+      "1 cup ripe mango pulp",
+      "1 cup yogurt",
       "1/2 cup milk",
-      "1 cup chopped ripe mango (fresh or frozen)",
-      "2-4 teaspoons sugar or honey, to taste",
-      "A pinch of ground cardamom (optional)",
-      "Mint leaves for garnish"
+      "2 tablespoons sugar",
+      "Pinch of cardamom"
     ],
     "instructions": [
-      "Place the yogurt, milk, mango, and sweetener in a blender",
-      "Add a pinch of cardamom if desired",
-      "Blend until completely smooth and creamy",
-      "If the lassi is too thick, add a little more milk and blend again",
-      "Taste and adjust sweetness if necessary",
-      "Pour into chilled glasses",
-      "Garnish with a fresh mint leaf and serve immediately"
+      "Blend mango pulp, yogurt, milk, sugar, and cardamom until smooth.",
+      "Serve chilled."
     ]
   },
   {
-    "name": "Sake (Nihonshu - Japan)",
+    "name": "Sugarcane Juice",
     "ingredients": [
-      "Sake of your choice (e.g., Junmai, Ginjo)"
+      "2 cups fresh sugarcane (pressed)",
+      "Juice of 1/2 lime",
+      "Pinch of ginger (optional)"
     ],
     "instructions": [
-      "Sake can be served chilled, at room temperature, or warm, depending on the type and personal preference",
-      "To serve chilled, refrigerate the bottle for a few hours before serving",
-      "To serve warm (atsukan), pour sake into a ceramic flask (tokkuri)",
-      "Place the tokkuri in a pan of water and heat gently. Do not boil. The ideal temperature is around 40-45°C (104-113°F)",
-      "Pour from the tokkuri into small ceramic cups (ochoko or sakazuki)",
-      "Sip slowly and appreciate the complex flavors"
+      "Extract juice from sugarcane stalks using a press.",
+      "Stir in lime juice and ginger if desired.",
+      "Serve over ice."
     ]
   },
   {
-    "name": "Teh Tarik (Malaysia)",
+    "name": "Fresh Lemonade",
     "ingredients": [
-      "2 tablespoons black tea powder or 2 black tea bags",
-      "1 cup hot water",
-      "3-4 tablespoons sweetened condensed milk"
+      "1/2 cup fresh lemon juice",
+      "3 tablespoons sugar",
+      "3 cups cold water",
+      "Ice cubes"
     ],
     "instructions": [
-      "Steep the black tea in hot water for about 5 minutes to create a strong brew",
-      "Strain the tea into a mug or heatproof cup",
-      "Add the sweetened condensed milk and stir until dissolved",
-      "Now for the 'pulling' (tarik): Pour the tea mixture into another mug from a height",
-      "Pour it back and forth between the two mugs several times",
-      "The pulling cools the tea and creates its signature frothy top",
-      "Increase the height of the pour as you get more confident to create more froth",
-      "Serve hot and frothy"
+      "Mix lemon juice and sugar until sugar dissolves.",
+      "Add cold water and stir.",
+      "Serve over ice."
     ]
   },
   {
-    "name": "Sangria (Spain)",
+    "name": "Orange Julius",
     "ingredients": [
-      "1 bottle (750ml) of dry red wine (like Rioja)",
-      "1 large orange, sliced",
-      "1 large lemon, sliced",
-      "1 apple, cored and chopped",
-      "1/4 cup brandy",
-      "2-4 tablespoons sugar",
       "1 cup orange juice",
-      "1 cup sparkling water or club soda, chilled"
+      "1/2 cup milk",
+      "1 tablespoon sugar",
+      "1/2 teaspoon vanilla extract",
+      "1/2 cup ice cubes"
     ],
     "instructions": [
-      "In a large pitcher, combine the red wine, orange slices, lemon slices, and chopped apple",
-      "Stir in the brandy and sugar until the sugar is dissolved",
-      "Add the orange juice and stir again",
-      "Cover the pitcher and refrigerate for at least 4 hours, or up to overnight, to allow the flavors to meld",
-      "Just before serving, top off with chilled sparkling water",
-      "Serve in glasses over ice, ensuring each glass gets some fruit"
+      "Blend orange juice, milk, sugar, vanilla, and ice until frothy.",
+      "Serve immediately."
     ]
   },
   {
-    "name": "Chapman (Nigeria)",
+    "name": "Tamarind Agua Fresca",
     "ingredients": [
-      "1/2 cup Fanta Orange soda",
-      "1/2 cup Sprite or 7-Up",
-      "2 dashes of Angostura bitters",
-      "1 tablespoon grenadine syrup",
-      "Ice cubes",
-      "Slices of cucumber, lemon, and orange for garnish"
+      "1/2 cup tamarind pulp",
+      "4 cups cold water",
+      "1/4 cup sugar"
     ],
     "instructions": [
-      "Fill a large mug or glass with ice cubes",
-      "Pour in the Fanta and Sprite",
-      "Add the dashes of Angostura bitters",
-      "Pour in the grenadine for color and sweetness",
-      "Stir gently to combine everything",
-      "Garnish with slices of cucumber, lemon, and orange",
-      "Serve with a straw and enjoy this refreshing Nigerian mocktail"
+      "Soak tamarind pulp in 1 cup hot water for 20 minutes.",
+      "Strain to remove seeds and fibers.",
+      "Mix with 3 cups cold water and sugar.",
+      "Serve chilled over ice."
+    ]
+  },
+  {
+    "name": "Moroccan Mint Tea",
+    "ingredients": [
+      "1 tablespoon gunpowder green tea",
+      "5 cups boiling water",
+      "1 large bunch spearmint",
+      "3–5 tablespoons sugar"
+    ],
+    "instructions": [
+      "Rinse tea leaves with a little boiling water and discard water.",
+      "Add tea, mint, and sugar to pot.",
+      "Fill with boiling water and steep 5 minutes.",
+      "Pour from height into glasses to create foam.",
+      "Repeat pouring back into pot 2–3 times before serving."
+    ]
+  },
+  {
+    "name": "Karkadeh (Hibiscus Tea)",
+    "ingredients": [
+      "1 cup dried hibiscus petals",
+      "8 cups cold water",
+      "3/4 cup sugar",
+      "Optional: orange slices"
+    ],
+    "instructions": [
+      "Rinse hibiscus petals under cold water.",
+      "Steep in cold water for 4–8 hours.",
+      "Strain and stir in sugar.",
+      "Serve chilled over ice."
+    ]
+  },
+  {
+    "name": "Bubble Tea (Boba Milk Tea)",
+    "ingredients": [
+      "1/2 cup black tapioca pearls",
+      "2 tablespoons brown sugar syrup",
+      "4 tablespoons loose-leaf black tea",
+      "2 cups hot water",
+      "1/2 cup milk",
+      "Ice cubes"
+    ],
+    "instructions": [
+      "Cook tapioca pearls until soft and coat in brown sugar syrup.",
+      "Steep black tea in hot water 5–8 minutes, then cool.",
+      "Divide pearls into glasses, add ice.",
+      "Pour tea and top with milk.",
+      "Stir and serve with wide straw."
+    ]
+  },
+  {
+    "name": "Flat White",
+    "ingredients": [
+      "Double ristretto shot (30–40 ml)",
+      "120 ml steamed milk with microfoam"
+    ],
+    "instructions": [
+      "Brew a double ristretto and pour into small cup.",
+      "Steam milk until silky microfoam forms.",
+      "Pour over espresso, creating a thin flat layer of foam.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Glögg (Scandinavian Mulled Wine)",
+    "ingredients": [
+      "1 bottle red wine",
+      "1/2 cup aquavit or vodka",
+      "10 cloves",
+      "2 cinnamon sticks",
+      "5 cardamom pods",
+      "1 star anise",
+      "1 orange peel",
+      "1/2 cup sugar",
+      "Raisins and almonds for serving"
+    ],
+    "instructions": [
+      "Heat wine, aquavit, and spices gently without boiling.",
+      "Simmer 1 hour to infuse.",
+      "Stir in sugar until dissolved.",
+      "Serve warm with raisins and almonds in the mug."
+    ]
+  },
+  {
+    "name": "Kava (Fiji/Polynesia)",
+    "ingredients": [
+      "1/2 cup ground kava root",
+      "4 cups cool water",
+      "Muslin straining bag"
+    ],
+    "instructions": [
+      "Place kava powder in muslin bag and submerge in cool water.",
+      "Knead and squeeze 10–15 minutes until water is cloudy.",
+      "Remove bag and discard root.",
+      "Serve immediately in coconut shells (bilo)."
+    ]
+  },
+  {
+    "name": "Terremoto (Chile)",
+    "ingredients": [
+      "1/2 liter Pipeño wine",
+      "2 scoops pineapple ice cream",
+      "1 tablespoon grenadine or Fernet"
+    ],
+    "instructions": [
+      "Place pineapple ice cream scoops in large glass.",
+      "Pour Pipeño wine over ice cream.",
+      "Top with grenadine or Fernet.",
+      "Serve with straw and long spoon."
+    ]
+  },
+  {
+    "name": "Arnold Palmer",
+    "ingredients": [
+      "4 ounces iced tea",
+      "4 ounces lemonade",
+      "Ice cubes",
+      "Lemon slice"
+    ],
+    "instructions": [
+      "Fill glass with ice.",
+      "Pour iced tea and lemonade in equal parts.",
+      "Stir gently.",
+      "Garnish with lemon slice."
     ]
   }
 ]

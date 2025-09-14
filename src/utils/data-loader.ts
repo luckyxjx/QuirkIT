@@ -108,11 +108,12 @@ export class DataLoader {
       };
     }
 
-    // If no specific holiday for today, return a random one
-    const randomHoliday = this.getRandomHoliday();
+    // If no specific holiday for today, return quirky message
     return {
-      ...randomHoliday,
-      date: targetDate // Update the date to today
+      name: "No Special Holiday Today",
+      description: "welp unlucky , how about we do some work aye!!!",
+      date: targetDate,
+      source: 'fallback'
     };
   }
 

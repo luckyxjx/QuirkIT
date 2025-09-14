@@ -1,5 +1,10 @@
 [
   {
+    "name": "New Year's Day",
+    "description": "The first day of the year in the Gregorian calendar, celebrated with fireworks, parties, and resolutions.",
+    "date": "2025-01-01"
+  },
+  {
     "name": "National Sticker Day",
     "description": "A day to celebrate all things sticky, from bumper stickers to the ones you collected as a kid.",
     "date": "2025-01-13"
@@ -8,6 +13,11 @@
     "name": "National Popcorn Day",
     "description": "Whether it's salty, sweet, or buttery, it's the perfect day to enjoy America's favorite movie snack.",
     "date": "2025-01-19"
+  },
+  {
+    "name": "Martin Luther King Jr. Day",
+    "description": "A US federal holiday marking the birthday of Martin Luther King Jr., observed on the third Monday of January.",
+    "date": "2025-01-20"
   },
   {
     "name": "National Compliment Day",
@@ -20,9 +30,34 @@
     "date": "2025-01-25"
   },
   {
+    "name": "Republic Day (India)",
+    "description": "A national holiday in India commemorating the date on which the Constitution of India came into effect in 1950.",
+    "date": "2025-01-26"
+  },
+  {
+    "name": "Australia Day",
+    "description": "The official National Day of Australia, marking the anniversary of the 1788 arrival of the First Fleet of British ships.",
+    "date": "2025-01-26"
+  },
+  {
+    "name": "Bubble Wrap Appreciation Day",
+    "description": "A day dedicated to the simple, stress-relieving joy of popping bubble wrap.",
+    "date": "2025-01-27"
+  },
+  {
+    "name": "International LEGO Day",
+    "description": "A day celebrating the classic building blocks that have inspired creativity and fun for generations.",
+    "date": "2025-01-28"
+  },
+  {
     "name": "Data Privacy Day",
     "description": "An international event to raise awareness and promote privacy and data protection best practices.",
     "date": "2025-01-28"
+  },
+  {
+    "name": "Chinese New Year (Lunar New Year)",
+    "description": "The festival that celebrates the beginning of a new year on the traditional lunisolar Chinese calendar. 2025 is the Year of the Snake.",
+    "date": "2025-01-29"
   },
   {
     "name": "National Puzzle Day",
@@ -30,9 +65,9 @@
     "date": "2025-01-29"
   },
   {
-    "name": "Bubble Wrap Appreciation Day",
-    "description": "A day dedicated to the simple, stress-relieving joy of popping bubble wrap.",
-    "date": "2025-01-27"
+    "name": "Groundhog Day",
+    "description": "A popular tradition in the U.S. and Canada where a groundhog emerging from its burrow predicts the arrival of spring.",
+    "date": "2025-02-02"
   },
   {
     "name": "National Wear Red Day",
@@ -45,9 +80,19 @@
     "date": "2025-02-09"
   },
   {
+    "name": "Darwin Day",
+    "description": "A day to celebrate the anniversary of Charles Darwin's birth and to highlight his contributions to science.",
+    "date": "2025-02-12"
+  },
+  {
     "name": "World Radio Day",
     "description": "A day to celebrate radio as a powerful medium for communication and entertainment.",
     "date": "2025-02-13"
+  },
+  {
+    "name": "Valentine's Day",
+    "description": "A day to celebrate romance, love, and friendship by exchanging cards, flowers, and candy.",
+    "date": "2025-02-14"
   },
   {
     "name": "Random Acts of Kindness Day",
@@ -90,6 +135,11 @@
     "date": "2025-03-10"
   },
   {
+    "name": "Holi (Festival of Colors)",
+    "description": "A popular Hindu festival, celebrating the arrival of spring, the end of winter, and the blossoming of love.",
+    "date": "2025-03-14"
+  },
+  {
     "name": "Pi Day",
     "description": "Celebrating the mathematical constant π (3.14) with pie, both the mathematical and the edible kind.",
     "date": "2025-03-14"
@@ -98,6 +148,11 @@
     "name": "World Sleep Day",
     "description": "An annual event to raise awareness of sleep as a human privilege that is often compromised by modern life.",
     "date": "2025-03-14"
+  },
+  {
+    "name": "St. Patrick's Day",
+    "description": "A cultural and religious celebration held on the traditional death date of Saint Patrick, the foremost patron saint of Ireland.",
+    "date": "2025-03-17"
   },
   {
     "name": "National Awkward Moments Day",
@@ -115,6 +170,11 @@
     "date": "2025-03-21"
   },
   {
+    "name": "International Day of Forests",
+    "description": "A UN observance to celebrate and raise awareness of the importance of all types of forests.",
+    "date": "2025-03-21"
+  },
+  {
     "name": "National Puppy Day",
     "description": "A day to celebrate the unconditional love and joy that puppies bring to our lives.",
     "date": "2025-03-23"
@@ -123,6 +183,21 @@
     "name": "Waffle Day",
     "description": "A day to enjoy the crispy, fluffy, grid-patterned delights known as waffles.",
     "date": "2025-03-25"
+  },
+  {
+    "name": "World Theatre Day",
+    "description": "A day to celebrate the value and importance of the art of theatre.",
+    "date": "2025-03-27"
+  },
+  {
+    "name": "Eid al-Fitr",
+    "description": "The religious holiday celebrated by Muslims worldwide that marks the end of the month-long dawn-to-sunset fasting of Ramadan.",
+    "date": "2025-03-31"
+  },
+  {
+    "name": "World Backup Day",
+    "description": "A day for people to learn about the increasing role of data in our lives and the importance of regular backups.",
+    "date": "2025-03-31"
   },
   {
     "name": "April Fool's Day",
@@ -150,6 +225,11 @@
     "date": "2025-04-10"
   },
   {
+    "name": "International Day of Human Space Flight (Yuri's Night)",
+    "description": "A UN day celebrating the anniversary of the first human space flight by Yuri Gagarin on April 12, 1961.",
+    "date": "2025-04-12"
+  },
+  {
     "name": "National Grilled Cheese Sandwich Day",
     "description": "A day dedicated to the simple, comforting, and delicious grilled cheese sandwich.",
     "date": "2025-04-12"
@@ -158,6 +238,21 @@
     "name": "National Scrabble Day",
     "description": "A day to play the classic word game and show off your vocabulary.",
     "date": "2025-04-13"
+  },
+  {
+    "name": "World Art Day",
+    "description": "An international celebration of the fine arts which was declared by the International Association of Art (IAA).",
+    "date": "2025-04-15"
+  },
+  {
+    "name": "Good Friday",
+    "description": "A Christian holiday commemorating the crucifixion of Jesus and his death at Calvary.",
+    "date": "2025-04-18"
+  },
+  {
+    "name": "Easter",
+    "description": "A Christian festival and cultural holiday commemorating the resurrection of Jesus from the dead.",
+    "date": "2025-04-20"
   },
   {
     "name": "National Look-Alike Day",
@@ -175,6 +270,11 @@
     "date": "2025-04-25"
   },
   {
+    "name": "World Intellectual Property Day",
+    "description": "A day to learn about the role that intellectual property (IP) rights play in encouraging innovation and creativity.",
+    "date": "2025-04-26"
+  },
+  {
     "name": "International Dance Day",
     "description": "A global celebration of dance, created to encourage participation and education in dance.",
     "date": "2025-04-29"
@@ -183,6 +283,11 @@
     "name": "National Honesty Day",
     "description": "A day to encourage honesty and straightforward communication in politics, relationships, and education.",
     "date": "2025-04-30"
+  },
+  {
+    "name": "World Password Day",
+    "description": "A day to promote better password habits and digital security.",
+    "date": "2025-05-01"
   },
   {
     "name": "May the 4th Be With You (Star Wars Day)",
@@ -195,14 +300,24 @@
     "date": "2025-05-05"
   },
   {
-    "name": "World Password Day",
-    "description": "A day to promote better password habits and digital security.",
-    "date": "2025-05-01"
-  },
-  {
     "name": "National Eat What You Want Day",
     "description": "A day to set aside your diet and indulge in your favorite foods without any guilt.",
     "date": "2025-05-11"
+  },
+  {
+    "name": "Mother's Day (US)",
+    "description": "A celebration honoring the mother of the family, as well as motherhood, maternal bonds, and the influence of mothers in society.",
+    "date": "2025-05-11"
+  },
+  {
+    "name": "International Museum Day",
+    "description": "A day to raise awareness on how important museums are in the development of society.",
+    "date": "2025-05-18"
+  },
+  {
+    "name": "World Bee Day",
+    "description": "A UN day to acknowledge the role of bees and other pollinators for the ecosystem.",
+    "date": "2025-05-20"
   },
   {
     "name": "National Talk Like Yoda Day",
@@ -215,6 +330,11 @@
     "date": "2025-05-25"
   },
   {
+    "name": "Memorial Day (US)",
+    "description": "A U.S. federal holiday for mourning the U.S. military personnel who have died while serving in the United States armed forces.",
+    "date": "2025-05-26"
+  },
+  {
     "name": "National Hamburger Day",
     "description": "A day to fire up the grill and enjoy a classic American hamburger.",
     "date": "2025-05-28"
@@ -223,6 +343,21 @@
     "name": "World Milk Day",
     "description": "A day established by the Food and Agriculture Organization of the United Nations to recognize the importance of milk as a global food.",
     "date": "2025-06-01"
+  },
+  {
+    "name": "World Environment Day",
+    "description": "The United Nations' principal vehicle for encouraging worldwide awareness and action for the environment.",
+    "date": "2025-06-05"
+  },
+  {
+    "name": "Eid al-Adha",
+    "description": "The latter of the two official holidays celebrated within Islam, honoring the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "date": "2025-06-07"
+  },
+  {
+    "name": "International Tabletop Day",
+    "description": "A day to celebrate board games, card games, and role-playing games with friends and family.",
+    "date": "2025-06-07"
   },
   {
     "name": "National Donut Day",
@@ -235,9 +370,29 @@
     "date": "2025-06-08"
   },
   {
+    "name": "Father's Day (US)",
+    "description": "A day of honoring fatherhood and paternal bonds, as well as the influence of fathers in society.",
+    "date": "2025-06-15"
+  },
+  {
+    "name": "International Sushi Day",
+    "description": "A day to celebrate the Japanese culinary art of sushi.",
+    "date": "2025-06-18"
+  },
+  {
+    "name": "Juneteenth",
+    "description": "A U.S. federal holiday commemorating the end of slavery in the United States.",
+    "date": "2025-06-19"
+  },
+  {
     "name": "National Flip Flop Day",
     "description": "A day to wear your favorite flip-flops and embrace the casual spirit of summer.",
     "date": "2025-06-20"
+  },
+  {
+    "name": "World Music Day",
+    "description": "An annual music celebration that takes place on June 21, with free concerts and events in cities around the world.",
+    "date": "2025-06-21"
   },
   {
     "name": "National Selfie Day",
@@ -245,14 +400,34 @@
     "date": "2025-06-21"
   },
   {
+    "name": "Asteroid Day",
+    "description": "A UN-sanctioned day to raise public awareness about the asteroid impact hazard.",
+    "date": "2025-06-30"
+  },
+  {
+    "name": "Canada Day",
+    "description": "The national day of Canada, celebrating the anniversary of the Constitution Act, 1867, which united three colonies into a single country.",
+    "date": "2025-07-01"
+  },
+  {
     "name": "World UFO Day",
     "description": "A day for people to gather and watch the skies for unidentified flying objects.",
     "date": "2025-07-02"
   },
   {
+    "name": "Independence Day (US)",
+    "description": "A U.S. federal holiday commemorating the Declaration of Independence of the United States on July 4, 1776.",
+    "date": "2025-07-04"
+  },
+  {
     "name": "World Chocolate Day",
     "description": "A day to indulge in the rich, delicious world of chocolate.",
     "date": "2025-07-07"
+  },
+  {
+    "name": "Bastille Day",
+    "description": "The national day of France, celebrating the storming of the Bastille in 1789, a major event of the French Revolution.",
+    "date": "2025-07-14"
   },
   {
     "name": "National Mac and Cheese Day",
@@ -270,6 +445,11 @@
     "date": "2025-07-30"
   },
   {
+    "name": "Harry Potter's Birthday",
+    "description": "A day for fans worldwide to celebrate the birthday of the iconic fictional wizard.",
+    "date": "2025-07-31"
+  },
+  {
     "name": "International Cat Day",
     "description": "A day to celebrate and appreciate our feline friends.",
     "date": "2025-08-08"
@@ -285,13 +465,228 @@
     "date": "2025-08-10"
   },
   {
+    "name": "International Lefthanders Day",
+    "description": "A day to celebrate the uniqueness and differences of left-handed individuals.",
+    "date": "2025-08-13"
+  },
+  {
+    "name": "Independence Day (India)",
+    "description": "A national holiday in India, commemorating the nation's independence from the United Kingdom on 15 August 1947.",
+    "date": "2025-08-15"
+  },
+  {
     "name": "World Photography Day",
     "description": "An annual, worldwide celebration of the art, craft, science, and history of photography.",
+    "date": "2025-08-19"
+  },
+  {
+    "name": "Raksha Bandhan",
+    "description": "A popular Hindu festival celebrating the bond between brothers and sisters.",
     "date": "2025-08-19"
   },
   {
     "name": "National Dog Day",
     "description": "A day to celebrate all dogs, mixed breed and pure.",
     "date": "2025-08-26"
+  },
+  {
+    "name": "International Bacon Day",
+    "description": "A day to celebrate and eat bacon. What more needs to be said?",
+    "date": "2025-09-06"
+  },
+  {
+    "name": "International Day of Charity",
+    "description": "A UN day to recognize the role of charity in alleviating humanitarian crises and human suffering.",
+    "date": "2025-09-05"
+  },
+  {
+    "name": "National Video Games Day",
+    "description": "A day for gamers to celebrate the art, technology, and fun of video games.",
+    "date": "2025-09-12"
+  },
+  {
+    "name": "Programmers' Day",
+    "description": "An international professional day celebrated on the 256th day of each year, recognizing the contributions of programmers.",
+    "date": "2025-09-13"
+  },
+  {
+    "name": "International Talk Like a Pirate Day",
+    "description": "A parodic holiday where everyone is encouraged to talk like a pirate. Ahoy, matey!",
+    "date": "2025-09-19"
+  },
+  {
+    "name": "Batman Day",
+    "description": "A day to celebrate the anniversary of the first appearance of the iconic DC Comics superhero.",
+    "date": "2025-09-20"
+  },
+  {
+    "name": "Oktoberfest Opening Day",
+    "description": "Marks the beginning of the world's largest Volksfest, held annually in Munich, Bavaria, Germany.",
+    "date": "2025-09-20"
+  },
+  {
+    "name": "International Day of Peace",
+    "description": "A United Nations-sanctioned holiday dedicated to world peace, and specifically the absence of war and violence.",
+    "date": "2025-09-21"
+  },
+  {
+    "name": "Rosh Hashanah",
+    "description": "The Jewish New Year, a two-day celebration that begins the High Holy Days.",
+    "date": "2025-09-23"
+  },
+  {
+    "name": "World Tourism Day",
+    "description": "A day to foster awareness among the international community of the importance of tourism and its social, cultural, political and economic value.",
+    "date": "2025-09-27"
+  },
+  {
+    "name": "World Heart Day",
+    "description": "A global campaign to raise awareness about cardiovascular disease, including heart disease and stroke.",
+    "date": "2025-09-29"
+  },
+  {
+    "name": "International Podcast Day",
+    "description": "An international celebration of the power of podcasts and the people who create them.",
+    "date": "2025-09-30"
+  },
+  {
+    "name": "International Coffee Day",
+    "description": "A day to celebrate and enjoy the world's most popular beverage.",
+    "date": "2025-10-01"
+  },
+  {
+    "name": "Gandhi Jayanti",
+    "description": "A national festival in India celebrated to mark the occasion of the birthday of Mahatma Gandhi.",
+    "date": "2025-10-02"
+  },
+  {
+    "name": "Yom Kippur",
+    "description": "Known as the Day of Atonement, it is the holiest day of the year in Judaism.",
+    "date": "2025-10-02"
+  },
+  {
+    "name": "World Space Week (Start)",
+    "description": "An international celebration of science and technology, and their contribution to the betterment of the human condition.",
+    "date": "2025-10-04"
+  },
+  {
+    "name": "National Taco Day",
+    "description": "A day to celebrate and eat one of the most popular and versatile foods.",
+    "date": "2025-10-04"
+  },
+  {
+    "name": "World Teachers' Day",
+    "description": "A day held annually to celebrate and appreciate educators around the world.",
+    "date": "2025-10-05"
+  },
+  {
+    "name": "World Mental Health Day",
+    "description": "A day for global mental health education, awareness and advocacy against social stigma.",
+    "date": "2025-10-10"
+  },
+  {
+    "name": "National Coming Out Day",
+    "description": "An annual LGBTQ awareness day to support lesbian, gay, bisexual and transgender people in 'coming out of the closet'.",
+    "date": "2025-10-11"
+  },
+  {
+    "name": "World Food Day",
+    "description": "A day of action dedicated to tackling global hunger and striving to eradicate hunger across the world.",
+    "date": "2025-10-16"
+  },
+  {
+    "name": "Diwali (Festival of Lights)",
+    "description": "A major festival in Hinduism, Jainism, and Sikhism, symbolizing the victory of light over darkness and good over evil.",
+    "date": "2025-10-21"
+  },
+  {
+    "name": "Back to the Future Day",
+    "description": "Celebrated by fans of the film trilogy on the date Marty McFly and Doc Brown traveled to in Back to the Future Part II.",
+    "date": "2025-10-21"
+  },
+  {
+    "name": "United Nations Day",
+    "description": "A day marking the anniversary of the entry into force in 1945 of the UN Charter.",
+    "date": "2025-10-24"
+  },
+  {
+    "name": "World Pasta Day",
+    "description": "A day to celebrate one of the world's favorite and most versatile foods.",
+    "date": "2025-10-25"
+  },
+  {
+    "name": "Halloween",
+    "description": "A holiday celebrated each year on October 31 with costumes, candy, trick-or-treating, and spooky decorations.",
+    "date": "2025-10-31"
+  },
+  {
+    "name": "World Vegan Day",
+    "description": "An annual event celebrated by vegans around the world to mark the founding of The Vegan Society.",
+    "date": "2025-11-01"
+  },
+  {
+    "name": "Stranger Things Day",
+    "description": "A day for fans to celebrate the popular Netflix series, marking the date Will Byers went missing in 1983.",
+    "date": "2025-11-06"
+  },
+  {
+    "name": "World Kindness Day",
+    "description": "An international holiday that was formed to promote kindness throughout the world.",
+    "date": "2025-11-13"
+  },
+  {
+    "name": "International Men's Day",
+    "description": "A day to celebrate boys' and men's achievements and contributions, particularly for their contributions to nation, society, and family.",
+    "date": "2025-11-19"
+  },
+  {
+    "name": "Thanksgiving (US)",
+    "description": "A national holiday in the United States, celebrated on the fourth Thursday of November as a day of giving thanks for the blessing of the harvest.",
+    "date": "2025-11-27"
+  },
+  {
+    "name": "Black Friday",
+    "description": "An informal name for the Friday following Thanksgiving in the United States, which is regarded as the beginning of the country's Christmas shopping season.",
+    "date": "2025-11-28"
+  },
+  {
+    "name": "Cyber Monday",
+    "description": "A marketing term for the e-commerce shopping day on the Monday after the Thanksgiving holiday in the United States.",
+    "date": "2025-12-01"
+  },
+  {
+    "name": "International Day of Persons with Disabilities",
+    "description": "An international observance promoted by the United Nations since 1992 to promote the rights and well-being of persons with disabilities.",
+    "date": "2025-12-03"
+  },
+  {
+    "name": "Human Rights Day",
+    "description": "The day the United Nations General Assembly adopted, in 1948, the Universal Declaration of Human Rights.",
+    "date": "2025-12-10"
+  },
+  {
+    "name": "Hanukkah (First Day)",
+    "description": "A Jewish festival commemorating the recovery of Jerusalem and subsequent rededication of the Second Temple, also known as the Festival of Lights.",
+    "date": "2025-12-14"
+  },
+  {
+    "name": "Christmas Eve",
+    "description": "The evening or entire day before Christmas Day, the festival commemorating the birth of Jesus.",
+    "date": "2025-12-24"
+  },
+  {
+    "name": "Christmas Day",
+    "description": "An annual festival commemorating the birth of Jesus Christ, observed primarily on December 25 as a religious and cultural celebration.",
+    "date": "2025-12-25"
+  },
+  {
+    "name": "Boxing Day",
+    "description": "A holiday celebrated the day after Christmas Day, originating in the United Kingdom and celebrated in a number of countries that previously formed part of the British Empire.",
+    "date": "2025-12-26"
+  },
+  {
+    "name": "New Year's Eve",
+    "description": "The last day of the year, celebrated with parties, social gatherings, and fireworks to ring in the new year.",
+    "date": "2025-12-31"
   }
 ]
