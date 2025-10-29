@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import { useState } from 'react';
@@ -44,7 +46,7 @@ export function ComplimentMachine({ className }: ComplimentMachineProps) {
             } else {
                 setReceiveError(result.error?.message || 'Failed to get compliment');
             }
-        } catch {
+        } catch (err) {
             setReceiveError('Network error occurred while fetching compliment');
         } finally {
             setIsLoadingCompliment(false);
@@ -82,7 +84,7 @@ export function ComplimentMachine({ className }: ComplimentMachineProps) {
             } else {
                 setSendError(result.error?.message || 'Failed to send compliment');
             }
-        } catch {
+        } catch (err) {
             setSendError('Network error occurred while sending compliment');
         } finally {
             setIsSending(false);

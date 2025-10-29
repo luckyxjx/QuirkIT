@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
@@ -16,7 +18,7 @@ export function DecisionSpinner({ className }: DecisionSpinnerProps) {
   const [isSpinning, setIsSpinning] = useState(false);
   const [result, setResult] = useState<string>('');
   const [error, setError] = useState<string>('');
-  const [currentRotation, setCurrentRotation] = useState<number>(0);
+  const [currentRotation, setCurrentRotation] = useState<number>(0); // we keep this small (0..360)
   const wheelRef = useRef<HTMLDivElement | null>(null);
   const maxChoices = 5;
 
@@ -31,7 +33,7 @@ export function DecisionSpinner({ className }: DecisionSpinnerProps) {
       setResult('');
       setError('');
     }
-  }, [choices, isSpinning]);
+  }, [choices]);
 
   const addChoice = () => {
     if (newChoice.trim() && choices.length < maxChoices) {

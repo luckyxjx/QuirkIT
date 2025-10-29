@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import { useState } from 'react';
@@ -28,7 +30,7 @@ export function ExcuseGenerator({ className }: ExcuseGeneratorProps) {
             } else {
                 setError(result.error?.message || 'Failed to generate excuse');
             }
-        } catch {
+        } catch (err) {
             setError('Network error occurred while fetching excuse');
         } finally {
             setIsLoading(false);
