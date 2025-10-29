@@ -3,7 +3,7 @@
 
 'use client';
 import { useIsMobile } from '@/hooks/use-is-mobile';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { DashboardLayout } from './dashboard-layout';
 import { FeatureCard } from '@/components/common/feature-card';
 import { FeatureModal } from '@/components/common/feature-modal';

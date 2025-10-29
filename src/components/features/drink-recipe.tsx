@@ -1,8 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
-
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 
@@ -93,10 +92,12 @@ export function DrinkRecipe({ className }: DrinkRecipeProps) {
                         {/* Drink Image */}
                         {drink.image && !imageError && (
                             <div className="mb-4 flex justify-center">
-                                <img
+                                <Image
                                     src={drink.image}
                                     alt={drink.name}
-                                    className="w-32 h-32 object-cover rounded-lg shadow-md"
+                                    width={128}
+                                    height={128}
+                                    className="object-cover rounded-lg shadow-md"
                                     onError={handleImageError}
                                 />
                             </div>

@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-
 'use client';
 
 import React, { useState } from 'react';
@@ -35,7 +33,7 @@ export function JokeViewer({ className }: JokeViewerProps) {
       } else {
         setError(result.error?.message || 'Failed to fetch joke');
       }
-    } catch (err) {
+    } catch {
       setError('Network error occurred while fetching joke');
     } finally {
       setIsLoading(false);

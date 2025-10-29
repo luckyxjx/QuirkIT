@@ -36,7 +36,7 @@ export function QuoteDisplay({ className }: QuoteDisplayProps) {
       } else {
         setError(result.error?.message || 'Failed to fetch quote');
       }
-    } catch (err) {
+    } catch {
       setError('Network error occurred while fetching quote');
     } finally {
       setIsLoading(false);

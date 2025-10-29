@@ -30,7 +30,7 @@ export function ShowerThought({ className }: ShowerThoughtProps) {
             } else {
                 setError(result.error?.message || 'Failed to generate shower thought');
             }
-        } catch (err) {
+        } catch {
             setError('Network error occurred while fetching shower thought');
         } finally {
             setIsLoading(false);
